@@ -9,8 +9,6 @@ If we got anything wrong, please file an issue or contribute a fix yourself.
 
 ## Usage
 
-(Very much in progress. Expect this list to change rapidly.)
-
     # BLZ
 
     blz = BankTools::DE::BLZ.new("10070024")
