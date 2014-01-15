@@ -17,11 +17,13 @@ If we got anything wrong, please file an issue or contribute a fix yourself.
     blz.normalize  # => "100 700 24"
     blz.valid?  # => true
     blz.errors  # => []
+    blz.bank_name  # => "Deutsche Bank PGK Berlin"
 
     bad_blz = BankTools::DE::BLZ.new("1X")
     bad_blz.normalize  # => "1X"
     bad_blz.valid?  # => false
     bad_blz.errors  # => [ :too_short, :invalid_characters ]
+    blz.bank_name  # => nil
 
     # Account
 
@@ -40,6 +42,27 @@ If we got anything wrong, please file an issue or contribute a fix yourself.
 
     rspec
     # or: rake
+
+
+## Update BLZ data
+
+Bundesbank provide a mapping from BLZ to bank name that appears to be updated regularly:
+
+<http://www.bundesbank.de/Redaktion/DE/Standardartikel/Kerngeschaeftsfelder/Unbarer_Zahlungsverkehr/bankleitzahlen_download.html>
+
+As a gem maintainer, run
+
+    rake download URL="http://www.bundesbank.de/…/blz_2013_12_09_xls.xlsx?__blob=publicationFile"
+
+providing a URL for the latest unpacked XLSX version of the data.
+
+You can provide a local path if you want.
+
+This will overwrite the local data file, which should ship with the gem.
+
+Updates appear to ship for periods of 3 months, provided the month before a period starts. We've seen these periods:
+* 2013-09-09 - 2013-12-08
+* 2013-12-09 - 2014-03-02
 
 
 ## Installation

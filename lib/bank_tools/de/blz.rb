@@ -1,13 +1,17 @@
 # http://de.wikipedia.org/wiki/Bankleitzahl
 # http://translate.google.com/translate?hl=en&sl=de&tl=en&u=http%3A%2F%2Fde.wikipedia.org%2Fwiki%2FBankleitzahl
 
-require "attr_extras"
+require "bank_tools/de"
 require "bank_tools/de/errors"
+
+require "attr_extras"
+require "yaml"
 
 module BankTools
   module DE
     class BLZ
       LENGTH = 8
+      BLZ_TO_NAME_PATH = File.join(BankTools::DE.data_dir, "blz_to_name.yml")
 
       pattr_initialize :original_value
 
@@ -31,7 +35,15 @@ module BankTools
         errors
       end
 
+      def bank_name
+        blz_to_name.fetch(compacted_value, nil)
+      end
+
       private
+
+      def blz_to_name
+        @blz_to_name ||= YAML.load_file(BLZ_TO_NAME_PATH).fetch(:data)
+      end
 
       def compacted_value
         original_value.to_s.gsub(/\s/, "")

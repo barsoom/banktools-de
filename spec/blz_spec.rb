@@ -46,3 +46,13 @@ describe BankTools::DE::BLZ, "#errors" do
     expect(BankTools::DE::BLZ.new("1X").errors).to include(Errors::INVALID_CHARACTERS)
   end
 end
+
+describe BankTools::DE::BLZ, "#bank_name" do
+  it "is provided if known" do
+    expect(BankTools::DE::BLZ.new("10000000").bank_name).to eq "BBk Berlin"
+  end
+
+  it "is provided if known" do
+    expect(BankTools::DE::BLZ.new("X").bank_name).to be_nil
+  end
+end
