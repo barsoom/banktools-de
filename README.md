@@ -2,7 +2,7 @@
 
 Ruby gem to validate, normalize/prettify and interpret German Bankleitzahl (BLZ) and bank account numbers.
 
-When in doubt, this library aims to err on the side of allowing too much.
+When in doubt, this library aims to err on the side of allowing too much. We've yet to find clear specs, so be aware that the current validation rules are *very* forgiving.
 
 If we got anything wrong, please file an issue or contribute a fix yourself.
 
