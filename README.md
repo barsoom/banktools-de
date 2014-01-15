@@ -38,6 +38,7 @@ If we got anything wrong, please file an issue or contribute a fix yourself.
 
 ## Tests
 
+    bundle
     rspec
     # or: rake
 
@@ -50,6 +51,7 @@ Bundesbank provide a mapping from BLZ to bank name that appears to be updated re
 
 As a gem maintainer, run
 
+    bundle
     rake download URL="http://www.bundesbank.de/…/blz_2013_12_09_xls.xlsx?__blob=publicationFile"
 
 providing a URL for the latest unpacked XLSX version of the data.
