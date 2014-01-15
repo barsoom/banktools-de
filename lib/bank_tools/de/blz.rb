@@ -1,8 +1,11 @@
 require "attr_extras"
+require "bank_tools/de/errors"
 
 module BankTools
   module DE
     class BLZ
+      LENGTH = 8
+
       pattr_initialize :original_value
 
       def normalize
@@ -11,6 +14,18 @@ module BankTools
         else
           original_value
         end
+      end
+
+      def valid?
+        errors.empty?
+      end
+
+      def errors
+        errors = []
+        errors << Errors::TOO_SHORT if compacted_value.length < LENGTH
+        errors << Errors::TOO_LONG if compacted_value.length > LENGTH
+        errors << Errors::INVALID_CHARACTERS if compacted_value.match(/\D/)
+        errors
       end
 
       private
