@@ -37,7 +37,7 @@ describe BankTools::DE::Account, "#valid?" do
 end
 
 describe BankTools::DE::Account, "#errors" do
-  Errors = BankTools::DE::Errors
+  Errors ||= BankTools::DE::Errors
 
   it "is empty when valid" do
     expect(BankTools::DE::Account.new(" 1-2 ").errors).to be_empty

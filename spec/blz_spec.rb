@@ -28,7 +28,7 @@ describe BankTools::DE::BLZ, "#valid?" do
 end
 
 describe BankTools::DE::BLZ, "#errors" do
-  Errors = BankTools::DE::Errors
+  Errors ||= BankTools::DE::Errors
 
   it "is empty if there's 8 digits and possibly whitespace" do
     expect(BankTools::DE::BLZ.new(" 123 456 78 ").errors).to be_empty
