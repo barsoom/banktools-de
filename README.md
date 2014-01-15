@@ -19,9 +19,21 @@ If we got anything wrong, please file an issue or contribute a fix yourself.
     blz.errors  # => []
 
     bad_blz = BankTools::DE::BLZ.new("1X")
+    bad_blz.normalize  # => "1X"
     bad_blz.valid?  # => false
     bad_blz.errors  # => [ :too_short, :invalid_characters ]
-    bad_account.normalize  # => "1X"
+
+    # Account
+
+    account = BankTools::DE::Account.new("123456789")
+    account.normalize  # => "123 456 789"
+    account.valid?  # => true
+    account.errors  # => []
+
+    bad_account = BankTools::DE::Account.new("1")
+    bad_account.normalize  # => "1"
+    bad_account.valid?  # => false
+    bad_account.errors  # => [ :too_short ]
 
 
 ## Tests
