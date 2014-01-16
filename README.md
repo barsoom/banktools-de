@@ -39,8 +39,7 @@ If we got anything wrong, please file an issue or contribute a fix yourself.
 ## Tests
 
     bundle
-    rspec
-    # or: rake
+    rspec  # or: rake
 
 
 ## Update BLZ data
