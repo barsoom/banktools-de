@@ -57,7 +57,7 @@ providing a URL for the latest unpacked XLSX version of the data.
 
 You can provide a local path if you want.
 
-This will overwrite the local data file, which should ship with the gem.
+This will overwrite the data file in the code repository.
 
 Updates appear to ship for periods of 3 months, provided the month before a period starts. We've seen these periods:
 * 2013-09-09 - 2013-12-08
