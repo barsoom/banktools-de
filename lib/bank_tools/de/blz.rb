@@ -10,7 +10,7 @@ require "yaml"
 module BankTools
   module DE
     class BLZ
-      LENGTH = 8
+      MIN_LENGTH = MAX_LENGTH = 8
       BLZ_TO_NAME_PATH = File.join(BankTools::DE.data_dir, "blz_to_name.yml")
 
       pattr_initialize :original_value
@@ -29,8 +29,8 @@ module BankTools
 
       def errors
         errors = []
-        errors << Errors::TOO_SHORT if compacted_value.length < LENGTH
-        errors << Errors::TOO_LONG if compacted_value.length > LENGTH
+        errors << Errors::TOO_SHORT if compacted_value.length < MIN_LENGTH
+        errors << Errors::TOO_LONG if compacted_value.length > MAX_LENGTH
         errors << Errors::INVALID_CHARACTERS if compacted_value.match(/\D/)
         errors
       end
@@ -46,7 +46,7 @@ module BankTools
       end
 
       def compacted_value
-        original_value.to_s.gsub(/\s/, "")
+        original_value.to_s.gsub(/[\s-]/, "")
       end
     end
   end

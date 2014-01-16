@@ -30,8 +30,8 @@ end
 describe BankTools::DE::BLZ, "#errors" do
   Errors ||= BankTools::DE::Errors
 
-  it "is empty if there's 8 digits and possibly whitespace" do
-    expect(BankTools::DE::BLZ.new(" 123 456 78 ").errors).to be_empty
+  it "is empty when valid" do
+    expect(BankTools::DE::BLZ.new(" 123 456-78 ").errors).to be_empty
   end
 
   it "includes TOO_SHORT if below 8 characters" do
@@ -52,7 +52,7 @@ describe BankTools::DE::BLZ, "#bank_name" do
     expect(BankTools::DE::BLZ.new("10000000").bank_name).to eq "BBk Berlin"
   end
 
-  it "is provided if known" do
+  it "is nil if unknown" do
     expect(BankTools::DE::BLZ.new("X").bank_name).to be_nil
   end
 end
