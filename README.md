@@ -33,7 +33,7 @@ If we got anything wrong, please file an issue or contribute a fix yourself.
     bad_account = BankTools::DE::Account.new("1")
     bad_account.normalize  # => "1"
     bad_account.valid?  # => false
-    bad_account.errors  # => [ :too_short ]
+    bad_account.errors  # => [:too_short]
 
 
 ## Tests
