@@ -20,7 +20,7 @@ If we got anything wrong, please file an issue or contribute a fix yourself.
     bad_blz = BankTools::DE::BLZ.new("1X")
     bad_blz.normalize  # => "1X"
     bad_blz.valid?  # => false
-    bad_blz.errors  # => [ :too_short, :invalid_characters ]
+    bad_blz.errors  # => [:too_short, :invalid_characters]
     blz.bank_name  # => nil
 
     # Account
