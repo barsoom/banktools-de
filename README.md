@@ -83,6 +83,7 @@ Or install it yourself as:
 
 * [BankTools::SE (Swedish)](https://github.com/barsoom/banktools-se)
 * [iban-tools](https://github.com/iulianu/iban-tools)
+* [Konto API online service](https://www.kontoapi.de)
 
 
 ## Credits and license
