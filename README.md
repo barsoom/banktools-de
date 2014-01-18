@@ -79,6 +79,11 @@ Or install it yourself as:
     $ gem install banktools-de
 
 
+## TODO
+
+* [Checksum validation](http://www.bundesbank.de/Navigation/DE/Kerngeschaeftsfelder/Unbarer_Zahlungsverkehr/Pruefzifferberechnung/pruefzifferberechnung.html)
+
+
 ## Also see
 
 * [BankTools::SE (Swedish)](https://github.com/barsoom/banktools-se)
