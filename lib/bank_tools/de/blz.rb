@@ -11,9 +11,13 @@ module BankTools
   module DE
     class BLZ
       LENGTH = 8
-      BLZ_TO_NAME_PATH = File.join(BankTools::DE.data_dir, "blz_to_name.yml")
+      BLZ_TO_BANK_NAME_PATH = File.join(BankTools::DE.data_dir, "blz_to_name.yml")
 
       pattr_initialize :original_value
+
+      def self.blz_to_bank_name
+        @blz_to_bank_name ||= YAML.load_file(BLZ_TO_BANK_NAME_PATH).fetch(:data)
+      end
 
       def normalize
         if compacted_value.match(/\A(\d{3})(\d{3})(\d{2})\z/)
@@ -36,13 +40,13 @@ module BankTools
       end
 
       def bank_name
-        blz_to_name.fetch(compacted_value, nil)
+        blz_to_bank_name.fetch(compacted_value, nil)
       end
 
       private
 
-      def blz_to_name
-        @blz_to_name ||= YAML.load_file(BLZ_TO_NAME_PATH).fetch(:data)
+      def blz_to_bank_name
+        self.class.blz_to_bank_name
       end
 
       def compacted_value

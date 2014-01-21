@@ -56,3 +56,11 @@ describe BankTools::DE::BLZ, "#bank_name" do
     expect(BankTools::DE::BLZ.new("X").bank_name).to be_nil
   end
 end
+
+describe BankTools::DE::BLZ, ".blz_to_bank_name" do
+  it "returns a hash mapping BLZs to bank names" do
+    actual = BankTools::DE::BLZ.blz_to_bank_name
+    expect(actual).to be_a(Hash)
+    expect(actual["10000000"]).to eq "BBk Berlin"
+  end
+end

@@ -16,6 +16,7 @@ If we got anything wrong, please file an issue or contribute a fix yourself.
     blz.valid?  # => true
     blz.errors  # => []
     blz.bank_name  # => "Deutsche Bank PGK Berlin"
+    BankTools::DE::BLZ.blz_to_bank_name  # => { "10070024" => "Deutsche Bank PGK Berlin", … }
 
     bad_blz = BankTools::DE::BLZ.new("1X")
     bad_blz.normalize  # => "1X"
