@@ -1,7 +1,3 @@
-require "banktools-de/version"
-require "banktools-de/blz"
-require "banktools-de/account"
-
 module BankTools
   module DE
     def self.data_dir
@@ -13,3 +9,7 @@ module BankTools
     end
   end
 end
+
+require "banktools-de/version"
+require "banktools-de/blz"
+require "banktools-de/account"
