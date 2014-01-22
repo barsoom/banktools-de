@@ -1,5 +1,5 @@
 require "spec_helper"
-require "bank_tools/de/blz"
+require "banktools-de/blz"
 
 describe BankTools::DE::BLZ, "#normalize" do
   it "groups the number correctly" do

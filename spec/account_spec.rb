@@ -1,5 +1,5 @@
 require "spec_helper"
-require "bank_tools/de/account"
+require "banktools-de/account"
 
 describe BankTools::DE::Account, "#normalize" do
   it "groups the number in threes" do

@@ -1,8 +1,8 @@
 # http://de.wikipedia.org/wiki/Bankleitzahl
 # http://translate.google.com/translate?hl=en&sl=de&tl=en&u=http%3A%2F%2Fde.wikipedia.org%2Fwiki%2FBankleitzahl
 
-require "bank_tools/de"
-require "bank_tools/de/errors"
+require "banktools-de"
+require "banktools-de/errors"
 
 require "attr_extras"
 require "yaml"

@@ -1,6 +1,6 @@
 require "bundler/gem_tasks"
 require "rspec/core/rake_task"
-require "bank_tools/de/blz_downloader"
+require "banktools-de/blz_downloader"
 
 RSpec::Core::RakeTask.new(:spec)
 
