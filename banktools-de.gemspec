@@ -6,9 +6,9 @@ require 'banktools-de/version'
 Gem::Specification.new do |spec|
   spec.name          = "banktools-de"
   spec.version       = BankTools::DE::VERSION
-  spec.authors       = ["Henrik Nyh"]
-  spec.email         = ["henrik@nyh.se"]
-  spec.summary       = %q{Validate and normalize German Bankleitzahl (BLZ) and bank account numbers.}
+  spec.authors       = [ "Henrik Nyh" ]
+  spec.email         = [ "henrik@nyh.se" ]
+  spec.summary       = %q{ Validate and normalize German Bankleitzahl (BLZ) and bank account numbers. Also it converts BLZ to IBAN/Bic. }
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -22,4 +22,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "creek"  # XLSX parsing
+  spec.add_development_dependency "ibanomat" # Convert BLZ to IBAN/Bic
 end
