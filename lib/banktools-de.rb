@@ -13,3 +13,4 @@ end
 require "banktools-de/version"
 require "banktools-de/blz"
 require "banktools-de/account"
+require "banktools-de/iban_bic"
