@@ -1,12 +1,12 @@
 require "ibanomat"
 require "attr_extras"
 
-class BankTools::DE::IBANBicConverter
+class BankTools::DE::IbanBicConverter
   class CouldNotConvertError < StandardError; end
   class ServiceUnavailable < StandardError; end
   class UnknownError < StandardError; end
 
-  class IBANBic
+  class IbanBic
     vattr_initialize :iban, :bic
   end
 
@@ -36,7 +36,7 @@ class BankTools::DE::IBANBicConverter
     if return_code == "00"
       iban = result.fetch(:iban)
       bic = result.fetch(:bic)
-      IBANBic.new(iban, bic)
+      IbanBic.new(iban, bic)
     else
       raise CouldNotConvertError
     end
