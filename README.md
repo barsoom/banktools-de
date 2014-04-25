@@ -36,6 +36,12 @@ If we got anything wrong, please file an issue or contribute a fix yourself.
     bad_account.valid?  # => false
     bad_account.errors  # => [:too_short]
 
+    # Convert BLZ and account number to IBAN/BIC
+
+    result = BankTools::DE::IbanBicConverter.run(blz: "37040044", account: "532013000")
+    result.iban  # => "DE89370400440532013000"
+    result.bic   # => "COBADEFFXXX"
+    # Or raises an exception.
 
 ## Tests
 

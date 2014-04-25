@@ -11,7 +11,7 @@ class BankTools::DE::IbanBicConverter
   end
 
   method_object :run,
-    [ :bank_code!, :account_number! ]
+    [ :blz!, :account! ]
 
   def run
     account_data = get_account_data
@@ -21,7 +21,7 @@ class BankTools::DE::IbanBicConverter
   private
 
   def get_account_data
-    Ibanomat.find(bank_code: bank_code, bank_account_number: account_number)
+    Ibanomat.find(bank_code: blz, bank_account_number: account)
   rescue RestClient::RequestTimeout
     raise ServiceUnavailable
   rescue

@@ -11,7 +11,7 @@ describe BankTools::DE::IbanBicConverter, ".run" do
 
     allow(Ibanomat).to receive(:find).and_return(iban: iban, bic: bic, return_code: "00")
 
-    actual = BankTools::DE::IbanBicConverter.run(bank_code: valid_bank_code, account_number: valid_account_number)
+    actual = BankTools::DE::IbanBicConverter.run(blz: valid_bank_code, account: valid_account_number)
 
     expect(actual.iban).to eq(iban)
     expect(actual.bic).to eq(bic)
@@ -23,7 +23,7 @@ describe BankTools::DE::IbanBicConverter, ".run" do
     allow(Ibanomat).to receive(:find).and_return(return_code: "1")
 
     expect {
-      BankTools::DE::IbanBicConverter.run(bank_code: invalid, account_number: invalid)
+      BankTools::DE::IbanBicConverter.run(blz: invalid, account: invalid)
     }.to raise_error(BankTools::DE::IbanBicConverter::CouldNotConvertError)
   end
 
@@ -31,7 +31,7 @@ describe BankTools::DE::IbanBicConverter, ".run" do
     allow(Ibanomat).to receive(:find).and_raise(RestClient::RequestTimeout)
 
     expect {
-      BankTools::DE::IbanBicConverter.run(bank_code: valid_bank_code, account_number: valid_account_number)
+      BankTools::DE::IbanBicConverter.run(blz: valid_bank_code, account: valid_account_number)
     }.to raise_error(BankTools::DE::IbanBicConverter::ServiceUnavailable)
   end
 
@@ -39,7 +39,7 @@ describe BankTools::DE::IbanBicConverter, ".run" do
     allow(Ibanomat).to receive(:find).and_raise("unknown error")
 
     expect {
-      BankTools::DE::IbanBicConverter.run(bank_code: valid_bank_code, account_number: valid_account_number)
+      BankTools::DE::IbanBicConverter.run(blz: valid_bank_code, account: valid_account_number)
     }.to raise_error(BankTools::DE::IbanBicConverter::UnknownError)
   end
 end
