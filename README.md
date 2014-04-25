@@ -98,9 +98,15 @@ Or install it yourself as:
 * [Konto API online service](https://www.kontoapi.de)
 
 
-## Credits and license
+## Credits
 
-By [Henrik Nyh](http://henrik.nyh.se) for [Barsoom](http://barsoom.se) under the MIT license:
+* [Henrik Nyh](http://henrik.nyh.se)
+* Tomas Skogberg
+* Victor Arias
+
+## License
+
+MIT license:
 
 Copyright (c) 2014 Barsoom AB
 
