@@ -14,14 +14,13 @@ class BankTools::DE::IbanBicConverter
     [ :bank_code!, :account_number! ]
 
   def run
-    result = convert
-
-    parse(result)
+    account_data = get_account_data
+    build_result(account_data)
   end
 
   private
 
-  def convert
+  def get_account_data
     Ibanomat.find(bank_code: bank_code, bank_account_number: account_number)
   rescue RestClient::RequestTimeout
     raise ServiceUnavailable
@@ -29,15 +28,13 @@ class BankTools::DE::IbanBicConverter
     raise UnknownError
   end
 
-  def parse(result)
-    return_code = result.fetch(:return_code)
+  def build_result(account_data)
+    # Non-"00" values represent an Ibanomat warning or error.
+    return_code = account_data.fetch(:return_code)
+    raise CouldNotConvertError unless return_code == "00"
 
-    if return_code == "00"
-      iban = result.fetch(:iban)
-      bic = result.fetch(:bic)
-      IbanBic.new(iban, bic)
-    else
-      raise CouldNotConvertError
-    end
+    iban = account_data.fetch(:iban)
+    bic  = account_data.fetch(:bic)
+    IbanBic.new(iban, bic)
   end
 end
