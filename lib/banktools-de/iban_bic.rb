@@ -23,7 +23,6 @@ class BankTools::DE::IbanBicConverter
 
   def convert
     Ibanomat.find(bank_code: bank_code, bank_account_number: account_number)
-
   rescue RestClient::RequestTimeout
     raise ServiceUnavailable
   rescue
