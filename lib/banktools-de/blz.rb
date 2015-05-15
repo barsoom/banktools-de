@@ -4,12 +4,14 @@
 require "banktools-de"
 require "banktools-de/errors"
 
-require "attr_extras"
+require "attr_extras/explicit"
 require "yaml"
 
 module BankTools
   module DE
     class BLZ
+      extend AttrExtras.mixin
+
       LENGTH = 8
       BLZ_TO_BANK_NAME_PATH = File.join(BankTools::DE.data_dir, "blz_to_name.yml")
 

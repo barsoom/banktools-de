@@ -38,7 +38,7 @@ If we got anything wrong, please file an issue or contribute a fix yourself.
 
     # Convert BLZ and account number to IBAN/BIC
 
-    result = BankTools::DE::IbanBicConverter.run(blz: "37040044", account: "532013000")
+    result = BankTools::DE::IbanBicConverter.call(blz: "37040044", account: "532013000")
     result.iban  # => "DE89370400440532013000"
     result.bic   # => "COBADEFFXXX"
     # Or raises an exception.

@@ -1,19 +1,21 @@
 require "ibanomat"
-require "attr_extras"
+require "attr_extras/explicit"
 
 class BankTools::DE::IbanBicConverter
+  extend AttrExtras.mixin
+
   class CouldNotConvertError < StandardError; end
   class ServiceUnavailable < StandardError; end
   class UnknownError < StandardError; end
 
   class IbanBic
+    extend AttrExtras.mixin
     vattr_initialize :iban, :bic
   end
 
-  method_object :run,
-    [ :blz!, :account! ]
+  method_object [ :blz!, :account! ]
 
-  def run
+  def call
     account_data = get_account_data
     build_result(account_data)
   end

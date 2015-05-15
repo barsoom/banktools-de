@@ -1,12 +1,14 @@
 # http://de.wikipedia.org/wiki/Bankleitzahl
 # http://translate.google.com/translate?hl=en&sl=de&tl=en&u=http%3A%2F%2Fde.wikipedia.org%2Fwiki%2FBankleitzahl
 
-require "attr_extras"
+require "attr_extras/explicit"
 require "banktools-de/errors"
 
 module BankTools
   module DE
     class Account
+      extend AttrExtras.mixin
+
       # Picked some reasonable values, erring on the side of allowing too much.
       # Seems to claim max 10: http://docs.oracle.com/cd/E18727_01/doc.121/e13483/T359831T498954.htm
       # Seems to claim 2 - 13: http://www.credit-card.be/BankAccount/ValidationRules.htm#DE_Validation

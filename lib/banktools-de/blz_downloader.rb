@@ -1,4 +1,4 @@
-require "attr_extras"
+require "attr_extras/explicit"
 require "yaml"
 require "open-uri"
 
@@ -8,6 +8,8 @@ require "creek"
 module BankTools
   module DE
     class BLZDownloader
+      extend AttrExtras.mixin
+
       pattr_initialize :url
 
       def run
