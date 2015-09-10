@@ -24,7 +24,7 @@ class BankTools::DE::IbanBicConverter
 
   def get_account_data
     Ibanomat.find(bank_code: blz, bank_account_number: account)
-  rescue RestClient::RequestTimeout
+  rescue RestClient::RequestTimeout, Errno::ECONNREFUSED
     raise ServiceUnavailable
   rescue
     raise UnknownError
