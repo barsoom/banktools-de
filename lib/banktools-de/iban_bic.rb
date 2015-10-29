@@ -1,12 +1,12 @@
-require "ibanomat"
+require "memoit"
+require "ibanizator"
 require "attr_extras/explicit"
 
 class BankTools::DE::IbanBicConverter
   extend AttrExtras.mixin
 
-  class CouldNotConvertError < StandardError; end
-  class ServiceUnavailable < StandardError; end
-  class UnknownError < StandardError; end
+  class CouldNotConvertIbanError < StandardError; end
+  class CouldNotFindBicError < StandardError; end
 
   class IbanBic
     extend AttrExtras.mixin
@@ -16,27 +16,30 @@ class BankTools::DE::IbanBicConverter
   method_object [ :blz!, :account! ]
 
   def call
-    account_data = get_account_data
-    build_result(account_data)
+    IbanBic.new(iban, bic)
   end
 
   private
 
-  def get_account_data
-    Ibanomat.find(bank_code: blz, bank_account_number: account)
-  rescue RestClient::RequestTimeout, Errno::ECONNREFUSED, RestClient::SSLCertificateNotVerified
-    raise ServiceUnavailable
-  rescue
-    raise UnknownError
+  def iban
+    iban_object.iban_string
   end
 
-  def build_result(account_data)
-    # Non-"00" values represent an Ibanomat warning or error.
-    return_code = account_data.fetch(:return_code)
-    raise CouldNotConvertError unless return_code == "00"
+  def bic
+    iban_object.extended_data.bic
+  rescue Ibanizator::BankDb::BankNotFoundError => e
+    raise CouldNotFindBicError.new(e.message)
+  end
 
-    iban = account_data.fetch(:iban)
-    bic  = account_data.fetch(:bic)
-    IbanBic.new(iban, bic)
+  memoize \
+  def iban_object
+    iban_string = Ibanizator.new.calculate_iban(country_code: :de, bank_code: blz, account_number: account)
+    iban = Ibanizator.iban_from_string(iban_string)
+
+    if Ibanizator.iban_from_string(iban).valid?
+      iban
+    else
+      raise CouldNotConvertIbanError.new("Invalid iban: #{iban.iban_string}")
+    end
   end
 end
