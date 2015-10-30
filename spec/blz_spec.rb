@@ -19,11 +19,11 @@ end
 
 describe BankTools::DE::BLZ, "#valid?" do
   it "is true with no errors" do
-    expect(BankTools::DE::BLZ.new("123 456 78").valid?).to be_truthy
+    expect(BankTools::DE::BLZ.new("123 456 78").valid?).to be_true
   end
 
   it "is false with errors" do
-    expect(BankTools::DE::BLZ.new("1").valid?).to be_falsy
+    expect(BankTools::DE::BLZ.new("1").valid?).to be_false
   end
 end
 
