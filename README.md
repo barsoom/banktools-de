@@ -69,6 +69,7 @@ This will overwrite the data file in the code repository.
 Updates appear to ship for periods of 3 months, provided the month before a period starts. We've seen these periods:
 * 2013-09-09 - 2013-12-08
 * 2013-12-09 - 2014-03-02
+* 2015-08-06 - 2015-06-09
 
 
 ## Installation
