@@ -28,11 +28,11 @@ end
 
 describe BankTools::DE::Account, "#valid?" do
   it "is true with no errors" do
-    expect(BankTools::DE::Account.new("12").valid?).to be_truthy
+    expect(BankTools::DE::Account.new("12").valid?).to be true
   end
 
   it "is false with errors" do
-    expect(BankTools::DE::Account.new("1").valid?).to be_falsy
+    expect(BankTools::DE::Account.new("1").valid?).to be false
   end
 end
 

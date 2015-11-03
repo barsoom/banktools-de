@@ -36,7 +36,7 @@ class BankTools::DE::IbanBicConverter
     iban_string = Ibanizator.new.calculate_iban(country_code: :de, bank_code: blz, account_number: account)
     iban = Ibanizator.iban_from_string(iban_string)
 
-    if Ibanizator.iban_from_string(iban).valid?
+    if iban.valid?
       iban
     else
       raise CouldNotConvertIbanError.new("Invalid IBAN: #{iban.iban_string}")
