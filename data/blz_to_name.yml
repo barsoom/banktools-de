@@ -1,11 +1,12 @@
 ---
-:generated_at: 2016-06-27 16:07:47.285527052 +02:00
-:generated_from_url: http://www.bundesbank.de/Redaktion/DE/Downloads/Aufgaben/Unbarer_Zahlungsverkehr/Bankleitzahlen/2016_09_04/blz_2016_06_06_xls.xlsx?__blob=publicationFile
+:generated_at: 2016-10-03 13:45:03.376648844 +02:00
+:generated_from_url: http://www.bundesbank.de/Redaktion/DE/Downloads/Aufgaben/Unbarer_Zahlungsverkehr/Bankleitzahlen/2016_12_04/blz_2016_09_05_xls.xlsx?__blob=publicationFile
 :data:
   '10000000': BBk Berlin
   '10010010': Postbank Berlin
   '10010111': SEB Berlin
   '10010424': Aareal Bank
+  '10011001': N26 Bank Berlin
   '10019610': Dexia Berlin
   '10020200': BHF-BANK Berlin
   '10020500': Bank für Sozialwirtschaft
@@ -68,7 +69,7 @@
   '10110600': quirin bank
   '10120100': Weberbank
   '10120600': Santander Consumer Bank
-  '10120800': VON ESSEN Bank
+  '10120800': VON ESSEN Bank Berlin
   '10130600': Isbank Berlin
   '10130800': BIW Bank
   '10220500': Bank of Scotland Berlin
@@ -157,7 +158,7 @@
   '18051000': Sparkasse Elbe-Elster
   '18055000': Sparkasse Niederlausitz
   '18062678': VR Bank Lausitz
-  '18062758': VR Bank Forst
+  '18062758': VR Bank Forst -alt-
   '18080000': Commerzbank Luckau
   '18092684': Spreewaldbank Lübben
   '18092744': Volksbank Spree-Neiße
@@ -378,7 +379,6 @@
   '22191405': VB Pinneberg-Elmshorn
   '22240073': Commerzbank Itzehoe
   '22250020': Spk Westholstein
-  '22251580': Ldspk Schenefeld -alt-
   '22280000': Commerzbank Itzehoe
   '22290031': VB Raiffbk Itzehoe
   '23000000': BBk Hamburg eh Lübeck
@@ -387,7 +387,6 @@
   '23050000': HSH Nordbank Hamburg
   '23050101': Sparkasse zu Lübeck
   '23051030': Spk Südholstein Neumünster
-  '23051610': Spk Stormarn -alt-
   '23052750': Kr Spk Herzogtum Lauenburg
   '23061220': Raiffeisenbank Leezen
   '23062124': Raiffeisenbank Bargteheide
@@ -467,7 +466,7 @@
   '25410111': SEB Hameln
   '25410200': BHW Bauspk Hameln
   '25440047': Commerzbank Hameln
-  '25450001': St Spk Hameln
+  '25450001': St Spk Hameln -alt-
   '25450110': Spk Weserbergland B Münder
   '25451345': St Spk Bad Pyrmont
   '25462160': VB Hameln-Stadthagen
@@ -809,7 +808,7 @@
   '30040063': Commerzbank CC Düsseldorf
   '30050000': Ld Bk Hess-Thür, Gz, Dus
   '30050110': St Spk Düsseldorf
-  '30060010': WGZ Bank Düsseldorf
+  '30060010': DZ BANK Düsseldorf
   '30060601': apoBank Düsseldorf
   '30060992': PSD Bank Rhein-Ruhr
   '30070010': Deutsche Bank Monheim Rhein
@@ -958,7 +957,7 @@
   '36000000': BBk Essen
   '36010043': Postbank Essen
   '36010111': SEB Oberhausen
-  '36010200': VON ESSEN Bankges Essen
+  '36010200': VON ESSEN Bank Essen
   '36010424': Aareal Bank Essen
   '36010600': NIBC Bank Deutschland
   '36010699': NIBC Bank Deutschland
@@ -1157,7 +1156,7 @@
   '40050000': Ld Bk Hess-Thür, Gz, Dus
   '40050150': Spk Münsterland Ost
   '40055555': LBS West Münster
-  '40060000': WGZ Bank Münster
+  '40060000': DZ BANK Münster
   '40060265': DKM Darlehnskasse Münster
   '40060300': WL BANK Münster
   '40060560': Sparda-Bank Münster
@@ -1397,6 +1396,7 @@
   '46660022': Volksbank Sauerland
   '46670007': Deutsche Bank Meschede
   '46670024': Deutsche Bank PGK Sundern
+  '47000000': BBk Dortmund (Bargeld)
   '47240047': Commerzbank Bad Driburg Wes
   '47250101': Sparkasse Paderborn -alt-
   '47251550': Spk Höxter Willebadessen
@@ -1504,8 +1504,8 @@
   '50021120': FIL Fondsbank Kronberg
   '50023400': Bank of Beirut Frankfurt
   '50025000': Opel Bank
-  '50030000': Banque PSA Finance
-  '50030010': Banque PSA Finance
+  '50030000': PSA Bank Neu-Isenburg
+  '50030010': PSA Bank Neu-Isenburg
   '50030100': HKB Bank Frankfurt am Main
   '50030500': BNP PARIBAS Sec Serv
   '50030600': dwpbank
@@ -1547,6 +1547,7 @@
   '50060412': DZ BANK Gf vK
   '50060413': DZ BANK Gf VK 2
   '50060414': DZ BANK Gf VK 3
+  '50060415': DZ BANK Gf vK 4
   '50060474': DZ BANK
   '50061741': Raiffeisenbank Oberursel
   '50069126': Raiffeisenbank Alzey-Land
@@ -1839,7 +1840,7 @@
   '50862703': VB Gersprenztal-Otzberg
   '50862835': Raiffeisenbank Schaafheim
   '50862903': Volksbank Mainspitze
-  '50863513': Volksbank Odenwald
+  '50863513': Vereinigte VB RB
   '50863906': Volksbank Modautal Modau
   '50864322': Volksbank Modau
   '50864808': Volksbank Seeheim-Jugenheim
@@ -1852,7 +1853,6 @@
   '50880086': Commerzbank ITGK2 Darmstd
   '50890000': VB Darmstadt - Südhessen
   '50890634': apoBank Darmstadt
-  '50892500': Groß-Gerauer Volksbank
   '50950068': Sparkasse Bensheim
   '50951469': Sparkasse Starkenburg
   '50961206': Raiffeisenbank Bürstadt
@@ -1888,7 +1888,7 @@
   '51170024': Deutsche Bank PGK Limburg
   '51180041': Commerzbank Limburg Lahn
   '51190000': Ver Volksbank Limburg
-  '51191200': Volksbank Goldner Grund
+  '51191200': Volksbank Goldner Grund-alt
   '51191800': Volksbank Schupbach
   '51192200': VuR-Bank Weilmünster -alt-
   '51210600': BNP PARIBAS Ndl Deutschland
@@ -1927,7 +1927,7 @@
   '51380040': Commerzbank Bad Nauheim
   '51380085': Commerzbank ITGK1 Gießen
   '51390000': VB Mittelhessen
-  '51410600': Merrill Lynch Intl Bank FFM
+  '51410600': Bofa Merrill Lynch Intl.FFM
   '51410700': Bank of China Frankfurt
   '51410800': OnVista Bank Frankfurt/Main
   '51420200': Misr Bank-Europe Ffm
@@ -2175,7 +2175,7 @@
   '57050120': Sparkasse Koblenz
   '57051001': Kr Spk Westerwald Montabaur
   '57051870': Kr Spk Cochem-Zell -alt-
-  '57060000': WGZ Bank Koblenz
+  '57060000': DZ BANK Koblenz
   '57060612': apoBank Trier
   '57062675': Raiffbk Niederwallmenach
   '57063478': Volksbank Vallendar-Niederw
@@ -2196,7 +2196,7 @@
   '57090900': PSD Bank Koblenz
   '57091000': VB Montabaur - Höhr-GrH
   '57091100': VB Höhr-Grenzhausen -alt-
-  '57092800': Volksbank Rhein-Lahn
+  '57092800': VB Rhein-Lahn-Limburg
   '57263015': Raiffeisenbank Arzbach
   '57351030': Sparkasse Westerwald-Sieg
   '57361476': Volksbank Gebhardshain
@@ -2303,7 +2303,6 @@
   '59252046': Sparkasse Neunkirchen
   '59291000': Unsere Volksbank St. Wendel
   '59291200': Volks- u. Raiffbk Saarpfalz
-  '59292400': Eppelborner Volksbank -alt-
   '59320087': UniCredit Bank-HypoVereinbk
   '59350110': Kreissparkasse Saarlouis
   '59351040': Spk Merzig-Wadern
@@ -2561,7 +2560,7 @@
   '63240016': Commerzbank Heidenheim
   '63250030': Kr Spk Heidenheim
   '63290110': Heidenheimer Volksbank
-  '63291210': Giengener Volksbank
+  '63291210': Giengener Volksbank -alt-
   '64000000': BBk Reutlingen
   '64020186': UniCredit Bank-HypoVereinbk
   '64040033': Commerzbank Reutlingen
@@ -3130,7 +3129,7 @@
   '72180002': Commerzbank Ingolstadt
   '72191300': Volksbank Eichstätt
   '72191600': Hallertauer Volksbank
-  '72191800': Volksbank Schrobenhausen
+  '72191800': VB Schrobenhausen -alt-
   '72220074': UniCredit Bank-HypoVereinbk
   '72223182': UniCredit Bank-HypoVereinbk
   '72250000': Sparkasse Nördlingen
@@ -3157,7 +3156,6 @@
   '73340046': Commerzbank Kempten Allgäu
   '73350000': Sparkasse Allgäu
   '73351635': Sparkasse Riezlern
-  '73351840': Spk Dornbirn Riezlern
   '73362421': Bankhaus Jungholz
   '73369264': Raiffbk im Allg Land
   '73369821': BodenseeBank
@@ -3204,7 +3202,7 @@
   '74062786': Raiffbk i Lkr Passau-Nord
   '74064593': Raiffeisenbank Wegscheid
   '74065782': Raiffbk Salzweg-Thyrnau
-  '74066749': Raiffbk i Südl Bay Wald
+  '74066749': Raiffbk Südl Bayer Wald
   '74067000': Rottaler Raiffbk
   '74069744': Raiffeisenbank Grainet
   '74069752': Raiffeisenbank Hohenau
@@ -3343,7 +3341,7 @@
   '76069549': Raiffbk Münchaurach -alt-
   '76069552': Raiffeisenbank Neuhof -alt-
   '76069553': Raiffeisenbank Neumarkt
-  '76069559': VR-Bank Uffenheim-Neustadt
+  '76069559': VR meine Bank
   '76069564': Raiffbk Oberferrieden-Burgt
   '76069576': Raiffeisenbank Plankstetten
   '76069598': Raiffeisenbank Roßtal
@@ -3352,7 +3350,7 @@
   '76069611': Raiffbk Unteres Vilstal
   '76069635': RB Ursens-Ammerth-Hohen alt
   '76069663': Raiffbk Heilsbr-Windsbach
-  '76069669': Raiffeisenbank Zirndorf
+  '76069669': Raiffeisenbank Bibertgrund
   '76070012': Deutsche Bank Schwabach Mfr
   '76070024': Deutsche Bank PGK Zirndorf
   '76080040': Commerzbank Ansbach
@@ -3467,7 +3465,7 @@
   '79069090': Raiffbk Ulsenheim-Gollh-alt
   '79069145': Raiffbk Kreuzw-Hasl -alt-
   '79069150': Raiffbk Main-Spessart
-  '79069165': Genobank Rhön-Grabfeld
+  '79069165': VR-Bank Rhön-Grabfeld
   '79069181': Raiffeisenbank Nüdlingen
   '79069188': Raiffeisenbank im Grabfeld
   '79069213': Raiffeisenbank Maßbach
@@ -3502,7 +3500,6 @@
   '79561348': Raiffeisenbank Bachgau
   '79562514': Raiffbk Aschaffenburg
   '79565568': Raiffeisenbank Waldaschaff
-  '79566545': Raiffbk Heimbuchenthal-alt-
   '79567531': VR-Bank
   '79568518': Raiffbk Haibach-Obernau
   '79570024': Deutsche Bank PGK Miltenber
@@ -3513,7 +3510,7 @@
   '79650000': Spk Miltenberg-Obernburg
   '79662558': Raiffbk Schöllkrippen
   '79665540': Raiffbk Elsavatal
-  '79666548': Raiffbk Großostheim-Obernbg
+  '79666548': Raiffbk Großostheim-Obernb.
   '79668509': Raiffbk Eichenbühl u U
   '79690000': RV-Bank Miltenberg
   '80020086': UniCredit Bank-HypoVereinbk
@@ -3599,7 +3596,6 @@
   '83064488': Raiffbk-VB Hermsdorf
   '83064568': Geraer Bank
   '83065408': VR-Bank ABG-Land / Skatbank
-  '83065410': Dt Skatbank Zndl VR Bank
   '83080000': Commerzbank Gera
   '83094444': Raiff-VB Saale-Orla
   '83094454': VB Gera-Jena-Rudolstadt
