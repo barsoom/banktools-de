@@ -71,6 +71,7 @@ Updates appear to ship for periods of 3 months, provided the month before a peri
 * 2013-12-09 - 2014-03-02
 * 2015-06-08 - 2015-09-06
 * 2016-06-06 - 2016-09-04
+* 2016-09-05 - 2016-12-04
 
 
 ## Installation
