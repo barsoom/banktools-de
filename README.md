@@ -96,7 +96,7 @@ Or install it yourself as:
 
 ## Also see
 
-- [Our other BankTools](https://github.com/barsoom?query=banktools)
+- [Our other BankTools](https://github.com/barsoom?q=banktools)
 - [iban-tools](https://github.com/iulianu/iban-tools)
 - [Konto API online service](https://www.kontoapi.de)
 
