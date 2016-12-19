@@ -51,20 +51,26 @@ If we got anything wrong, please file an issue or contribute a fix yourself.
 
 ## Update BLZ data
 
-Bundesbank provide a mapping from BLZ to bank name that appears to be updated regularly:
+Bundesbank provide a mapping from BLZ to bank name that appears to be updated regularly.
 
-<http://www.bundesbank.de/Redaktion/DE/Standardartikel/Kerngeschaeftsfelder/Unbarer_Zahlungsverkehr/bankleitzahlen_download.html>
+As a gem maintainer:
 
-As a gem maintainer, run
+Visit <http://www.bundesbank.de/Redaktion/DE/Standardartikel/Kerngeschaeftsfelder/Unbarer_Zahlungsverkehr/bankleitzahlen_download.html> and find the latest data under the "Bankleitzahlendateien ungepackt" in the XLSX format. Copy that URL.
+
+Run:
 
     bundle
-    rake download URL="http://www.bundesbank.de/…/blz_2013_12_09_xls.xlsx?__blob=publicationFile"
+    rake download URL="http://www.bundesbank.de/Redaktion/DE/Downloads/Aufgaben/Unbarer_Zahlungsverkehr/Bankleitzahlen/2017_03_05/blz_2016_12_05_xls.xlsx?__blob=publicationFile"
 
-providing a URL for the latest unpacked XLSX version of the data.
+Where the URL is the URL for the latest unpacked XLSX data.
 
 You can provide a local path if you want.
 
 This will overwrite the data file in the code repository.
+
+Bump the version and make a new release.
+
+Then update the list of updates below.
 
 Updates appear to ship for periods of 3 months, provided the month before a period starts. We've seen these periods:
 * 2013-09-09 - 2013-12-08
@@ -72,6 +78,7 @@ Updates appear to ship for periods of 3 months, provided the month before a peri
 * 2015-06-08 - 2015-09-06
 * 2016-06-06 - 2016-09-04
 * 2016-09-05 - 2016-12-04
+* 2016-12-05 - 2017-03-05
 
 
 ## Installation
