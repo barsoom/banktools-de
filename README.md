@@ -55,7 +55,7 @@ Bundesbank provide a mapping from BLZ to bank name that appears to be updated re
 
 As a gem maintainer:
 
-Visit <http://www.bundesbank.de/Redaktion/DE/Standardartikel/Kerngeschaeftsfelder/Unbarer_Zahlungsverkehr/bankleitzahlen_download.html> and find the latest data under the "Bankleitzahlendateien ungepackt" in the XLSX format. Copy that URL.
+Visit <http://www.bundesbank.de/Redaktion/EN/Standardartikel/Tasks/Payment_systems/bank_sort_codes_download.html> and find the latest data under the "Bank sort code files, unpacked" in the XLSX format. Copy that URL.
 
 Run:
 
