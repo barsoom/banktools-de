@@ -60,7 +60,7 @@ Visit <http://www.bundesbank.de/Redaktion/EN/Standardartikel/Tasks/Payment_syste
 Run:
 
     bundle
-    exec rake download URL="http://www.bundesbank.de/Redaktion/DE/Downloads/Aufgaben/Unbarer_Zahlungsverkehr/Bankleitzahlen/2017_03_05/blz_2016_12_05_xls.xlsx?__blob=publicationFile"
+    bundle exec rake download URL="http://www.bundesbank.de/Redaktion/DE/Downloads/Aufgaben/Unbarer_Zahlungsverkehr/Bankleitzahlen/2017_03_05/blz_2016_12_05_xls.xlsx?__blob=publicationFile"
 
 Where the URL is the URL for the latest unpacked XLSX data.
 
