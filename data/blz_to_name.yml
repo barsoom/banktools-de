@@ -1,6 +1,6 @@
 ---
-:generated_at: 2017-06-02 12:17:09.590881151 +02:00
-:generated_from_url: http://www.bundesbank.de/Redaktion/DE/Downloads/Aufgaben/Unbarer_Zahlungsverkehr/Bankleitzahlen/2017_09_03/blz_2017_06_05_xls.xlsx;jsessionid=0000JmLvWP1utv4WzkAP_qJVy6m:-1?__blob=publicationFile
+:generated_at: 2017-09-04 07:13:56.567739000 +01:00
+:generated_from_url: http://www.bundesbank.de/Redaktion/DE/Downloads/Aufgaben/Unbarer_Zahlungsverkehr/Bankleitzahlen/2017_12_03/blz_2017_09_04_xls.xlsx?__blob=publicationFile
 :data:
   '10000000': BBk Berlin
   '10010010': Postbank Berlin
@@ -70,7 +70,7 @@
   '10120600': Santander Consumer Bank
   '10120800': VON ESSEN Bank Berlin
   '10130600': Isbank Berlin
-  '10130800': BIW Bank
+  '10130800': Fin Tech Group Bank, Ffm.
   '10220500': Bank of Scotland Berlin
   '10220600': Sydbank Berlin
   '10310600': Tradegate Berlin
@@ -299,6 +299,62 @@
   '20730038': UniCredit Bk Settlemt EAC38
   '20730039': UniCredit Bk Settlemt EAC39
   '20730040': UniCredit Bk Settlemt EAC40
+  '20730041': UniCredit Bk Settlemt EAC41
+  '20730042': UniCredit Bk Settlemt EAC42
+  '20730043': UniCredit Bk Settlemt EAC43
+  '20730044': UniCredit Bk Settlemt EAC44
+  '20730045': UniCredit Bk Settlemt EAC45
+  '20730046': UniCredit Bk Settlemt EAC46
+  '20730047': UniCredit Bk Settlemt EAC47
+  '20730048': UniCredit Bk Settlemt EAC48
+  '20730049': UniCredit Bk Settlemt EAC49
+  '20730050': UniCredit Bk Settlemt EAC50
+  '20730052': UniCredit Bk Settlemt EAC52
+  '20730055': UniCredit Bk Settlemt EAC55
+  '20730056': UniCredit Bk Settlemt EAC56
+  '20730057': UniCredit Bk Settlemt EAC57
+  '20730058': UniCredit Bk Settlemt EAC58
+  '20730059': UniCredit Bk Settlemt EAC59
+  '20730060': UniCredit Bk Settlemt EAC60
+  '20730061': UniCredit Bk Settlemt EAC61
+  '20730062': UniCredit Bk Settlemt EAC62
+  '20730063': UniCredit Bk Settlemt EAC63
+  '20730064': UniCredit Bk Settlemt EAC64
+  '20730065': UniCredit Bk Settlemt EAC65
+  '20730066': UniCredit Bk Settlemt EAC66
+  '20730067': UniCredit Bk Settlemt EAC67
+  '20730068': UniCredit Bk Settlemt EAC68
+  '20730069': UniCredit Bk Settlemt EAC69
+  '20730070': UniCredit Bk Settlemt EAC70
+  '20730071': UniCredit Bk Settlemt EAC71
+  '20730072': UniCredit Bk Settlemt EAC72
+  '20730073': UniCredit Bk Settlemt EAC73
+  '20730074': UniCredit Bk Settlemt EAC74
+  '20730075': UniCredit Bk Settlemt EAC75
+  '20730076': UniCredit Bk Settlemt EAC76
+  '20730077': UniCredit Bk Settlemt EAC77
+  '20730078': UniCredit Bk Settlemt EAC78
+  '20730079': UniCredit Bk Settlemt EAC79
+  '20730080': UniCredit Bk Settlemt EAC80
+  '20730081': UniCredit Bk Settlemt EAC81
+  '20730082': UniCredit Bk Settlemt EAC82
+  '20730083': UniCredit Bk Settlemt EAC83
+  '20730084': UniCredit Bk Settlemt EAC84
+  '20730085': UniCredit Bk Settlemt EAC85
+  '20730086': UniCredit Bk Settlemt EAC86
+  '20730087': UniCredit Bk Settlemt EAC87
+  '20730088': UniCredit Bk Settlemt EAC88
+  '20730089': UniCredit Bk Settlemt EAC89
+  '20730090': UniCredit Bk Settlemt EAC90
+  '20730091': UniCredit Bk Settlemt EAC91
+  '20730092': UniCredit Bk Settlemt EAC92
+  '20730093': UniCredit Bk Settlemt EAC93
+  '20730094': UniCredit Bk Settlemt EAC94
+  '20730095': UniCredit Bk Settlemt EAC95
+  '20730096': UniCredit Bk Settlemt EAC96
+  '20730097': UniCredit Bk Settlemt EAC97
+  '20730098': UniCredit Bk Settlemt EAC98
+  '20730099': UniCredit Bk Settlemt EAC99
   '20750000': Spk Harburg-Buxtehude
   '21000000': BBk Hamburg eh Kiel
   '21010111': SEB Kiel
@@ -332,7 +388,7 @@
   '21390008': VR Bk Ostholstein Nord-Plön
   '21392218': Volksbank Eutin
   '21440045': Commerzbank Rendsburg
-  '21450000': Spk Mittelholst Westerrönfd
+  '21450000': Spk Mittelholstein Rendsbg
   '21451205': Sparkasse Büdelsdorf -alt-
   '21452030': Spk Wasbek
   '21463603': VB-Raiffbk i Kr Rendsburg
@@ -744,7 +800,7 @@
   '29040060': Commerzbank CC Bremen
   '29040061': Commerzbank CC Bremen
   '29040090': Commerzbank Achim Bremen
-  '29050000': Bremer Landesbank Oldenburg
+  '29050000': Nord LB Oldenburg
   '29050101': Sparkasse Bremen Gf P2
   '29070024': Deutsche Bank PGK Vechta
   '29070050': Deutsche Bank Osterholz-Sch
@@ -845,7 +901,7 @@
   '30150200': Kr Spk Düsseldorf Heiligenh
   '30160213': VB Düsseldorf Neuss
   '30220190': UniCredit Bank-HypoVereinbk
-  '30330800': BIW Bank
+  '30330800': Fin Tech Group Bank, Ffm.
   '30351220': St Spk Haan
   '30520000': RCI Banque Ndl Deutschland
   '30520037': RCI Banque Direkt
@@ -1261,7 +1317,7 @@
   '42260001': VB Ruhr Mitte Gelsenkirchen
   '42450040': St Spk Gladbeck
   '42451220': Spk Bottrop
-  '42461435': Volksbank Kirchhellen
+  '42461435': Vereinte Volksbank
   '42610112': SEB Marl Westf
   '42640048': Commerzbank Recklinghausen
   '42650150': Spk Recklinghausen
@@ -1320,7 +1376,7 @@
   '44340037': Commerzbank Unna
   '44350060': Sparkasse UnnaKamen
   '44351380': Sparkasse Kamen -alt-
-  '44351740': Sparkasse Fröndenberg
+  '44351740': Sparkasse Fröndenberg -alt-
   '44361342': VB Kamen-Werne
   '44540022': Commerzbank Menden Sauerl
   '44550045': Spk der Stadt Iserlohn
@@ -1335,7 +1391,7 @@
   '45000000': BBk Hagen
   '45040042': Commerzbank Herdecke Ruhr
   '45050001': Sparkasse HagenHerdecke
-  '45051485': St Spk Herdecke
+  '45051485': St Spk Herdecke -alt-
   '45060009': Volksbank Menden
   '45061524': Volksbank Hohenlimburg
   '45070002': Deutsche Bank Lüdenscheid
@@ -1348,7 +1404,7 @@
   '45260041': Volksbank Witten -alt-
   '45260475': Spar- und Kreditbank
   '45261547': Volksbank Sprockhövel
-  '45450050': St Spk Gevelsberg
+  '45450050': St Spk Gevelsberg-Wetter
   '45451060': Spk Ennepetal-Breckerfeld
   '45451555': St Spk Schwelm
   '45660029': Volksbank Altena -alt-
@@ -1491,7 +1547,7 @@
   '50010910': Bank of America
   '50012800': ALTE LEIPZIGER Bauspar
   '50020000': Sberbank Direct Frankfurt
-  '50020200': BHF-BANK Frankfurt Main
+  '50020200': ODDO BHF Frankfurt Main
   '50020300': Bremer Kreditbank
   '50020400': KfW Frankfurt
   '50020500': Landwirtschaftl Rentenbank
@@ -1545,8 +1601,8 @@
   '50060413': DZ BANK Gf VK 2
   '50060414': DZ BANK für BSH
   '50060415': DZ BANK für BSH
-  '50060416': DZ BANK Gf VK 5
-  '50060417': DZ BANK Gf VK 6
+  '50060416': DZ BANK Gf VK 6
+  '50060417': DZ BANK Gf VK 7
   '50060474': DZ BANK
   '50061741': Raiffeisenbank Oberursel
   '50069126': VRB Alzey-Land-Schwabenheim
@@ -1625,66 +1681,6 @@
   '50190400': Volksbank Griesheim Ffm
   '50210111': SEB TZN Clearing Ffm
   '50210112': SEB TZN MB Frankfurt
-  '50210130': SEB TZN MB
-  '50210131': SEB TZN MB
-  '50210132': SEB TZN MB
-  '50210133': SEB TZN MB
-  '50210134': SEB TZN MB
-  '50210135': SEB TZN MB
-  '50210136': SEB TZN MB
-  '50210137': SEB TZN MB
-  '50210138': SEB TZN MB
-  '50210139': SEB TZN MB
-  '50210140': SEB TZN MB
-  '50210141': SEB TZN MB
-  '50210142': SEB TZN MB
-  '50210143': SEB TZN MB
-  '50210144': SEB TZN MB
-  '50210145': SEB TZN MB
-  '50210146': SEB TZN MB
-  '50210147': SEB TZN MB
-  '50210148': SEB TZN MB
-  '50210149': SEB TZN MB
-  '50210150': SEB TZN MB
-  '50210151': SEB TZN MB
-  '50210152': SEB TZN MB
-  '50210153': SEB TZN MB.
-  '50210154': SEB TZN MB
-  '50210155': SEB TZN MB
-  '50210156': SEB TZN MB
-  '50210157': SEB TZN MB
-  '50210158': SEB TZN MB
-  '50210159': SEB TZN MB
-  '50210160': SEB TZN MB Frankfurt
-  '50210161': SEB TZN MB Frankfurt
-  '50210162': SEB TZN MB Frankfurt
-  '50210163': SEB TZN MB Frankfurt
-  '50210164': SEB TZN MB Frankfurt
-  '50210165': SEB TZN MB Frankfurt
-  '50210166': SEB TZN MB Frankfurt
-  '50210167': SEB TZN MB Frankfurt
-  '50210168': SEB TZN MB Frankfurt
-  '50210169': SEB TZN MB Frankfurt
-  '50210170': SEB TZN MB Frankfurt
-  '50210171': SEB TZN MB Frankfurt
-  '50210172': SEB TZN MB Frankfurt
-  '50210173': SEB TZN MB Frankfurt
-  '50210174': SEB TZN MB Frankfurt
-  '50210175': SEB TZN MB Frankfurt
-  '50210176': SEB TZN MB Frankfurt
-  '50210177': SEB TZN MB Frankfurt
-  '50210178': SEB TZN MB Frankfurt
-  '50210179': SEB TZN MB Frankfurt
-  '50210180': SEB TZN MB Frankfurt
-  '50210181': SEB TZN MB Frankfurt
-  '50210182': SEB TZN MB Frankfurt
-  '50210183': SEB TZN MB Frankfurt
-  '50210184': SEB TZN MB Frankfurt
-  '50210185': SEB TZN MB Frankfurt
-  '50210186': SEB TZN MB Frankfurt
-  '50210187': SEB TZN MB Frankfurt
-  '50210188': SEB TZN MB Frankfurt
-  '50210189': SEB TZN MB Frankfurt
   '50210200': Rabobank Frankfurt Main
   '50210212': RaboDirect Frankfurt Main
   '50210295': Rabobank International CMS
@@ -1693,11 +1689,11 @@
   '50210800': ProCredit Bank, Frankfurt
   '50210900': Citigroup GM Frankfurt
   '50220085': UBS Europe
+  '50220101': Kommunalkredit Deutschland
   '50220500': Bank of Scotland
   '50220900': Hauck + Aufhäuser München
   '50230000': ABC International Bank Ffm
   '50230100': Morgan Stanley Bank Int
-  '50230400': RBS NDL Frankfurt
   '50230600': Isbank Frankfurt Main
   '50230700': Bankhaus Metzler Frankfurt
   '50230800': Ikano Wiesbaden
@@ -1722,67 +1718,6 @@
   '50334400': BNY Mellon NL FFM
   '50400000': BBk Zentrale Frankfurt Main
   '50510111': SEB Heusenstamm
-  '50510120': SEB TZN MB
-  '50510121': SEB TZN MB
-  '50510122': SEB TZN MB
-  '50510123': SEB TZN MB
-  '50510124': SEB TZN MB
-  '50510125': SEB TZN MB
-  '50510126': SEB TZN MB
-  '50510127': SEB TZN MB
-  '50510128': SEB TZN MB
-  '50510129': SEB TZN MB
-  '50510130': SEB TZN MB
-  '50510131': SEB TZN MB
-  '50510132': SEB TZN MB
-  '50510133': SEB TZN MB
-  '50510134': SEB TZN MB
-  '50510135': SEB TZN MB
-  '50510136': SEB TZN MB
-  '50510137': SEB TZN MB
-  '50510138': SEB TZN MB
-  '50510139': SEB TZN MB
-  '50510140': SEB TZN MB
-  '50510141': SEB TZN MB
-  '50510142': SEB TZN MB
-  '50510143': SEB TZN MB
-  '50510144': SEB TZN MB
-  '50510145': SEB TZN MB
-  '50510146': SEB TZN MB
-  '50510147': SEB TZN MB
-  '50510148': SEB TZN MB
-  '50510149': SEB TZN MB
-  '50510150': SEB TZN MB
-  '50510151': SEB TZN MB
-  '50510152': SEB TZN MB
-  '50510153': SEB TZN MB
-  '50510154': SEB TZN MB
-  '50510155': SEB TZN MB
-  '50510156': SEB TZN MB
-  '50510157': SEB TZN MB
-  '50510158': SEB TZN MB
-  '50510159': SEB TZN MB
-  '50510160': SEB TZN MB
-  '50510161': SEB TZN MB
-  '50510162': SEB TZN MB
-  '50510163': SEB TZN MB
-  '50510164': SEB TZN MB
-  '50510165': SEB TZN MB
-  '50510166': SEB TZN MB
-  '50510167': SEB TZN MB
-  '50510168': SEB TZN MB
-  '50510169': SEB TZN MB
-  '50510170': SEB TZN MB
-  '50510171': SEB TZN MB
-  '50510172': SEB TZN MB
-  '50510173': SEB TZN MB
-  '50510174': SEB TZN MB
-  '50510175': SEB TZN MB
-  '50510176': SEB TZN MB
-  '50510177': SEB TZN MB
-  '50510178': SEB TZN MB
-  '50510179': SEB TZN MB
-  '50510180': SEB TZN MB
   '50520190': UniCredit Bank-HypoVereinbk
   '50522222': FIDOR Bank Frankfurt
   '50530000': Cronbank
@@ -1899,7 +1834,6 @@
   '51220800': Banco do Brasil Frankfurt
   '51220900': Morgan Stanley Bank
   '51220910': Morgan Stanley Bank
-  '51230400': RBS Deutschland FFM
   '51230500': Standard Chartered Bank Ffm
   '51230502': SCB Frankfurt am Main
   '51230555': Ikano Wiesbaden
@@ -1924,7 +1858,7 @@
   '51390000': VB Mittelhessen
   '51410600': Bofa Merrill Lynch Intl.FFM
   '51410700': Bank of China Frankfurt
-  '51410800': OnVista Bank Frankfurt/Main
+  '51410800': comdirect + GF onvista bank
   '51420200': Misr Bank-Europe Ffm
   '51420300': Bank Julius Bär Frankfurt
   '51420600': Svenska Handelsbanken
@@ -1970,7 +1904,7 @@
   '52062200': VR-Bank Chattengau
   '52062601': VR-Bank Schwalm-Eder
   '52063369': VR-Bank Spangenbg-Morschen
-  '52063550': Raiffeisenbank Wolfhagen
+  '52063550': Raiffeisenbank HessenNord
   '52064156': Raiffeisenbank Baunatal
   '52065220': Raiffeisenbank Calden
   '52069013': Raiffeisenbank Burghaun
@@ -2103,7 +2037,7 @@
   '55020486': UniCredit Bank-HypoVereinbk
   '55020500': Bank für Sozialwirtschaft
   '55020555': Sozialbank Mainz
-  '55020600': WestImmo
+  '55020600': Aareal Bank
   '55020700': SWK-Bank Bingen
   '55030500': TARGO Commerc.Finance,Mainz
   '55030533': TARGOBANK Direkt
@@ -2352,7 +2286,7 @@
   '60069343': Raiffeisenbank Rißtal -alt-
   '60069346': Raiffbk Ehingen-Hochsträß
   '60069350': Raiffbk Reute-Gaisbeuren
-  '60069355': Ehninger Bank
+  '60069355': VR-Bank Ehningen-Nufringen
   '60069378': VB Dettenhausen
   '60069387': Dettinger Bank
   '60069417': Raiffbk Kirchheim-Walheim
@@ -2449,7 +2383,7 @@
   '60390300': Volksbank Region Leonberg
   '60391310': VB Herrenbg-Nagold-Rottenbg
   '60391420': Volksbank Magstadt
-  '60410600': Wüstenrot Bank Pfandbriefbk
+  '60410600': Wüstenrot Bank
   '60420000': Wüstenrot Bank
   '60420020': Wüstenrot Bank
   '60420021': Wüstenrot Bank
@@ -2504,7 +2438,7 @@
   '61440086': Commerzbank Aalen Württ
   '61450050': Kreissparkasse Ostalb
   '61480001': Commerzbank Aalen Württ
-  '61490150': VR-Bank Aalen
+  '61490150': VR-Bank Ostalb
   '61491010': VR-Bank Ellwangen
   '62020000': Hoerner-Bank Heilbronn
   '62020100': FCA Bank Heilbronn Neckar
@@ -2553,7 +2487,7 @@
   '64040033': Commerzbank Reutlingen
   '64040045': Commerzbank Metzingen Würt
   '64050000': Kr Spk Reutlingen
-  '64061854': VR Steinlach-Wiesaz-Härten
+  '64061854': VR Bank Tübingen
   '64070024': Deutsche Bank PGK Tübingen
   '64070085': Deutsche Bank Freudenstadt
   '64080014': Commerzbank Reutlingen
@@ -2598,7 +2532,7 @@
   '65070084': Deutsche Bank Tettnang
   '65080009': Commerzbank Isny
   '65090100': Volksbank Ravensburg -alt-
-  '65091040': Leutkircher Bank
+  '65091040': Voba Allgäu-Oberschwaben
   '65091300': Bad Waldseer Bank
   '65091600': Volksbank Weingarten
   '65092010': VB Allgäu-West
@@ -2829,7 +2763,7 @@
   '69470024': Deutsche Bank PGK Triberg
   '69470039': Deutsche Bank Donaueschinge
   '69490000': VB Schwarzwald Baar Hegau
-  '69491700': Volksbank Schönwald
+  '69491700': Volksbank Triberg
   '70000000': BBk München
   '70010080': Postbank -Giro- München
   '70010111': SEB Ingolstadt Donau
@@ -2852,6 +2786,7 @@
   '70012300': V-Bank München
   '70012400': Die AKTIONÄRSBANK Kulmbach
   '70012600': Südt. Sparkasse München
+  '70012700': VZDB DE München
   '70013000': ebase Aschheim
   '70013010': Ebase Aschheim
   '70013100': net-m privatbank 1891
@@ -3131,7 +3066,6 @@
   '73340046': Commerzbank Kempten Allgäu
   '73350000': Sparkasse Allgäu
   '73351635': Sparkasse Riezlern
-  '73362421': Bankhaus Jungholz
   '73369264': Raiffbk im Allg Land
   '73369821': BodenseeBank
   '73369823': Raiffeisenbank Westallgäu
@@ -3152,7 +3086,6 @@
   '73370024': Deutsche Bank PGK Geretsrie
   '73380004': Commerzbank Kempten
   '73390000': Allgäuer Volksbank
-  '73391600': Volksbank Riezlern
   '73392000': Volksbank Immenstadt
   '73420071': UniCredit Bank-HypoVereinbk
   '73421478': UniCredit Bank-HypoVereinbk
@@ -3172,7 +3105,7 @@
   '74061670': Raiffbk Ortenburg
   '74061813': VR-Bank Rottal-Inn
   '74061814': VR-Bank Rottal-Inn
-  '74062490': Raiffbk Vilshofener Land
+  '74062490': VR Vilshofen
   '74062786': Raiffbk i Lkr Passau-Nord
   '74064593': Raiffeisenbank Wegscheid
   '74065782': Raiffbk Salzweg-Thyrnau
@@ -3189,7 +3122,7 @@
   '74140048': Commerzbank DE F-D48
   '74150000': Spk Deggendorf
   '74151450': Sparkasse Regen-Viechtach
-  '74160025': Raiffbk Deggendorf-Plattlg
+  '74160025': Raiba Deg.-Pla.-Sonnenw.
   '74161608': Raiffbk Hengersb-Schöllnach
   '74164149': VR-Bank
   '74165013': Raiffeisenbank Sonnenwald
@@ -3274,7 +3207,7 @@
   '75360011': Raiffeisenbank Weiden
   '75362039': Raiffeisenbank Floß
   '75363189': Raiffbk Neustadt-Vohenstr
-  '75390000': Volksbank Nordoberpfalz
+  '75390000': VR Nordoberpfalz
   '76000000': BBk Nürnberg
   '76010085': Postbank Nürnberg
   '76010111': SEB Nürnberg
@@ -3283,7 +3216,7 @@
   '76026000': norisbank Berlin
   '76030080': BNPP ehem. Cortal Consors
   '76030600': Isbank Nürnberg
-  '76030800': BIW Bank
+  '76030800': Fin Tech Group Bank, Ffm.
   '76032000': TeamBank Nürnberg
   '76032001': TeamBank Nürnberg GF -AT-
   '76035000': UmweltBank Nürnberg
@@ -3364,7 +3297,7 @@
   '76551860': St u Kr Spk Rothenburg
   '76560060': VR-Bank Mittelfranken West
   '76561979': Raiffbk Uffenheim -alt-
-  '76591000': VR Bank Dinkelsbühl
+  '76591000': VR Feuchtwangen-Dinkelsbühl
   '77020070': UniCredit Bank-HypoVereinbk
   '77030111': Flessabank Bamberg
   '77040080': Commerzbank Bamberg
@@ -3385,7 +3318,7 @@
   '77069556': VR-Bank EHH
   '77069739': Raiffbk Thurnauer Land
   '77069746': Raiffbk Emtmannsberg
-  '77069764': Raiffbk Kemnather Land
+  '77069764': Raiffbk Oberpfalz NordWest
   '77069782': Raiffeisenbank am Kulm
   '77069836': Raiffbk Berg-Bad Steben
   '77069868': Raiffeisenbank Oberland
@@ -3396,7 +3329,7 @@
   '77120073': UniCredit Bank-HypoVereinbk
   '77140061': Commerzbank Kulmbach
   '77150000': Spk Kulmbach-Kronach
-  '77190000': Kulmbacher Bank
+  '77190000': VR Bank Oberfranken Mitte
   '77300000': BBk München eh Bayreuth
   '77320072': UniCredit Bank-HypoVereinbk
   '77322200': Fondsdepot Bank
@@ -3411,7 +3344,7 @@
   '78040081': Commerzbank Selbitz
   '78050000': Spk Hochfranken
   '78055050': Spk Hochfranken -alt-
-  '78060896': VR Bank Hof
+  '78060896': VR Bank Bayreuth-Hof
   '78140000': Commerzbank Mitterteich
   '78160069': VR-Bk Fichtelgeb.-Frankenw.
   '78161575': Raiffbk im Stiftland Walds
