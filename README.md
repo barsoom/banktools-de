@@ -51,7 +51,7 @@ If we got anything wrong, please file an issue or contribute a fix yourself.
 
 ## Update BLZ data
 
-Bundesbank provide a mapping from BLZ to bank name that appears to be updated regularly.
+Bundesbank provide a mapping from BLZ to bank name that is updated regularly. Updates appear to ship for periods of 3 months (e.g. 2013-09-09 - 2013-12-08), provided the month before a period starts.
 
 As a gem maintainer:
 
@@ -68,19 +68,7 @@ You can provide a local path if you want.
 
 This will overwrite the data file in the code repository.
 
-Bump the version and make a new release.
-
-Then update the list of updates below.
-
-Updates appear to ship for periods of 3 months, provided the month before a period starts. We've seen these periods:
-* 2013-09-09 - 2013-12-08
-* 2013-12-09 - 2014-03-02
-* 2015-06-08 - 2015-09-06
-* 2016-06-06 - 2016-09-04
-* 2016-09-05 - 2016-12-04
-* 2016-12-05 - 2017-03-05
-* 2017-03-06 - 2017-06-04
-* 2017-06-05 - 2017-09-05
+Bump the gem tiny version (e.g. 1.1.1 -> 1.1.2) and make a new release.
 
 
 ## Installation
