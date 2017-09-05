@@ -51,7 +51,7 @@ If we got anything wrong, please file an issue or contribute a fix yourself.
 
 ## Update BLZ data
 
-Bundesbank provide a mapping from BLZ to bank name that is updated regularly. Updates appear to ship for periods of 3 months (e.g. 2013-09-09 - 2013-12-08), provided the month before a period starts.
+Bundesbank provide a mapping from BLZ to bank name that is updated regularly. Updates appear to ship for periods of 3 months (e.g. 2013-09-09 - 2013-12-08) and to be made available the month prior.
 
 As a gem maintainer:
 
