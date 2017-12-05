@@ -68,7 +68,7 @@ You can provide a local path if you want.
 
 This will overwrite the data file in the code repository.
 
-Bump the gem tiny version (e.g. 1.1.1 -> 1.1.2) and make a new release.
+Bump the gem tiny version (e.g. 1.1.1 -> 1.1.2) and make a new release (`rake release`).
 
 
 ## Installation
