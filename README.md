@@ -55,12 +55,12 @@ Bundesbank provide a mapping from BLZ to bank name that is updated regularly. Up
 
 As a gem maintainer:
 
-Visit <http://www.bundesbank.de/Redaktion/EN/Standardartikel/Tasks/Payment_systems/bank_sort_codes_download.html> and find the latest data under the "Bank sort code files, unpacked" in the XLSX format. Copy that URL.
+Visit <https://www.bundesbank.de/Redaktion/EN/Standardartikel/Tasks/Payment_systems/bank_sort_codes_download.html> and find the latest data under the "Bank sort code files, unpacked" in the XLSX format. Copy that URL.
 
 Run:
 
     bundle
-    bundle exec rake download URL="http://www.bundesbank.de/Redaktion/DE/Downloads/Aufgaben/Unbarer_Zahlungsverkehr/Bankleitzahlen/2017_03_05/blz_2016_12_05_xls.xlsx?__blob=publicationFile"
+    bundle exec rake download URL="https://www.bundesbank.de/Redaktion/DE/Downloads/Aufgaben/Unbarer_Zahlungsverkehr/Bankleitzahlen/2017_03_05/blz_2016_12_05_xls.xlsx?__blob=publicationFile"
 
 Where the URL is the URL for the latest unpacked XLSX data.
 
