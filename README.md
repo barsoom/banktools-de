@@ -55,7 +55,7 @@ Bundesbank provide a mapping from BLZ to bank name that is updated regularly. Up
 
 As a gem maintainer:
 
-Visit <https://www.bundesbank.de/Redaktion/EN/Standardartikel/Tasks/Payment_systems/bank_sort_codes_download.html> and find the latest data under the "Bank sort code files, unpacked" in the XLSX format. Copy that URL.
+Visit <https://www.bundesbank.de/Redaktion/EN/Standardartikel/Tasks/Payment_systems/bank_sort_codes_download.html> and find the latest data (you may need to scroll past older data) under "Bank sort code files, unpacked" in the XLSX format. Copy that URL.
 
 Run:
 
