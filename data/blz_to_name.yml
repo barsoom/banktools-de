@@ -1,12 +1,13 @@
 ---
-:generated_at: 2018-12-07 11:21:49.287305000 +00:00
-:generated_from_url: https://www.bundesbank.de/resource/blob/602630/20faacc2e44cf0c02ff37edb4d8a6ea6/mL/blz-aktuell-xls-data.xlsx
+:generated_at: 2019-03-07 12:26:25.898566209 +01:00
+:generated_from_url: https://www.bundesbank.de/resource/blob/602630/1b5138f22cc648106b16a29ecc3117c1/mL/blz-aktuell-xls-data.xlsx
 :data:
   '10000000': BBk Berlin
   '10010010': Postbank Ndl DB PFK
   '10010111': DSK Hyp
   '10010424': Aareal Bank
   '10011001': N26 Bank Berlin
+  '10017997': Holvi - Berlin
   '10019610': DKD Berlin
   '10019670': DKD Berlin - DPB
   '10020200': BHF-BANK Berlin
@@ -90,7 +91,7 @@
   '12090640': apoBank -ZV-Ost- Berlin
   '12096597': Sparda-Bank Berlin
   '13000000': BBk Rostock
-  '13010111': SEB Wismar
+  '13010111': DSK Hyp
   '13040000': Commerzbank Roggentin
   '13050000': Ostseesparkasse Rostock
   '13051042': Spk Vorpommern auf Rügen
@@ -163,7 +164,7 @@
   '18092744': Volksbank Spree-Neiße
   '20000000': BBk Hamburg
   '20010020': Postbank Ndl DB PFK
-  '20010111': SEB Norderstedt
+  '20010111': DSK Hyp
   '20010424': Aareal Bank
   '20020200': SEB, Hamburg
   '20020500': Jyske Bank Hamburg
@@ -236,12 +237,12 @@
   '20120000': Berenberg, Hamburg
   '20120100': M.M. Warburg Bank
   '20120200': BHF-BANK Hamburg
-  '20120400': Deutscher Ring Bspk Hamburg
+  '20120400': start bausparkasse
   '20120520': Sozialbank Hamburg
   '20120600': Goyer & Göppel Hamburg
   '20120700': Hanseatic Bank Hamburg
   '20130400': GRENKE BANK
-  '20130600': Barclaycard (Gf P2)
+  '20130600': Barclays Bank (Gf P2)
   '20133300': Santander Bank Hamburg
   '20190003': Hamburger Volksbank
   '20190077': Hamburger Volksbank Gf GAA
@@ -358,7 +359,6 @@
   '20730099': UniCredit Bk Settlemt EAC99
   '20750000': Spk Harburg-Buxtehude
   '21000000': BBk Hamburg eh Kiel
-  '21010111': SEB Kiel
   '21020600': Sydbank Fil. Kiel
   '21040010': Commerzbank Schleswig
   '21042076': Commerzbank Eckernförde
@@ -372,6 +372,7 @@
   '21080050': Commerzbank Kiel
   '21089201': Commerzbank ITGK Kiel
   '21090007': Kieler Volksbank
+  '21090099': Kieler Volksbank (Gf GAA)
   '21090619': apoBank Kiel
   '21090900': PSD Bank Kiel
   '21092023': Eckernförder Bank VRB
@@ -435,7 +436,6 @@
   '22280000': Commerzbank Itzehoe
   '22290031': VB Raiffbk Itzehoe
   '23000000': BBk Hamburg eh Lübeck
-  '23010111': SEB Bad Schwartau
   '23040022': Commerzbank Bad Schwartau
   '23050000': HSH Nordbank Hamburg
   '23050101': Sparkasse zu Lübeck
@@ -472,7 +472,6 @@
   '24191015': Volksbank Stade-Cuxhaven
   '25000000': BBk Hannover
   '25010030': Postbank Ndl DB PFK
-  '25010111': SEB Laatzen
   '25010424': Aareal Bank
   '25010600': Deuhypo Hannover
   '25010900': Calenbg Kreditver Hannover
@@ -504,7 +503,7 @@
   '25080085': Commerzbank ITGK2 Hannov
   '25089220': Commerzbank ITGK Hannover
   '25090300': Bk f Schiffahrt Hannover
-  '25090500': Sparda-Bank Herford
+  '25090500': Sparda-Bank Hannover
   '25090608': apoBank Göttingen
   '25090900': PSD Bank Hannover
   '25120510': Bank für Sozialwirtschaft
@@ -515,7 +514,7 @@
   '25190001': Volksbank Celle
   '25190088': HanVB - GS nur für GAA
   '25193331': Volksbank
-  '25250001': Kr Spk Peine
+  '25250001': Kreissparkasse Peine -alt-
   '25260010': Volksbank Peine
   '25410200': BHW Bauspk Hameln
   '25440047': Commerzbank Hameln
@@ -557,11 +556,9 @@
   '25850110': Sparkasse Uelzen Lüchow-Dbg
   '25851335': Spk Uelzen Lüchow-Dbg.-alt-
   '25851660': Kr Spk Soltau
-  '25861395': Volksbank Dannenberg -alt-
   '25861990': Volksbank Clenze-Hitzacker
   '25862292': Volksbank Uelzen-Salzwedel
   '25863489': VR PLUS Altmark-Wendland
-  '25891483': VB Osterbg-Lüchow-Dannenbg
   '25891636': VB Lüneburger Heide
   '25940033': Commerzbank Hildesheim
   '25950001': St Spk Hildesheim -alt-
@@ -613,7 +610,7 @@
   '26563960': VB Bramgau-Wittlage
   '26565928': VB GMHütte-Hagen-Bissendorf
   '26566939': VB Osnabrücker Nd
-  '26567943': VR-Bank Bippen
+  '26567943': VR-Bank Osnabrücker Nordl.
   '26570024': DB PFK (Deutsche Bank PGK)
   '26570090': Deutsche Bank Quakenbrück
   '26580070': Commerzbank Melle
@@ -635,7 +632,7 @@
   '26770024': DB PFK (Deutsche Bank PGK)
   '26770095': Deutsche Bank Schüttorf
   '26840032': Commerzbank Bad Harzburg
-  '26850001': Sparkasse Goslar/Harz
+  '26850001': Sparkasse Goslar/Harz -alt-
   '26851410': Kr Spk Clausthal-Zell.-alt-
   '26851620': Sparkasse Salzgitter -alt-
   '26870024': DB PFK (Deutsche Bank PGK)
@@ -650,7 +647,6 @@
   '26981062': Commerzbank Wolfsburg
   '26989221': Commerzbk ITGK Wolfsburg
   '26991066': Volksbank Brawo
-  '27010111': SEB Wolfsburg
   '27010200': VON ESSEN Bank Braunschweig
   '27020000': Volkswagen Bank Braunschwg
   '27020001': Audi Bank Braunschweig
@@ -829,7 +825,7 @@
   '29280011': Commerzbank Bremerhaven
   '29290034': VB Bremerh-Wesermünde -alt-
   '30000000': BBk Düsseldorf
-  '30010111': SEB Ratingen
+  '30010111': DSK Hyp
   '30010400': IKB Düsseldorf
   '30010444': IKB Privatkunden Düsseldorf
   '30010700': MUFG Bank
@@ -977,6 +973,7 @@
   '35040085': Commerzbank Gf WK, Duisburg
   '35050000': Spk Duisburg
   '35060190': LKG Zndl d. KD-Bank Dresden
+  '35060199': KD-Bank (Gf GAA RB)Dortmund
   '35060386': VB Rhein-Ruhr Duisburg
   '35060632': apoBank Duisburg
   '35070024': DB PFK (Deutsche Bank PGK)
@@ -1002,7 +999,7 @@
   '35860245': Volksbank Emmerich-Rees
   '36000000': BBk Essen
   '36010043': Postbank Ndl DB PFK
-  '36010111': SEB Oberhausen
+  '36010111': DSK Hyp
   '36010200': VON ESSEN Bank Essen
   '36010424': Aareal Bank Essen
   '36010600': NIBC Bank Deutschland
@@ -1036,7 +1033,7 @@
   '36580072': Commerzbank Oberhausen
   '37000000': BBk Köln
   '37010050': Postbank Ndl DB PFK
-  '37010111': SEB Brühl Rheinl
+  '37010111': DSK Hyp
   '37010600': BNP Paribas Ndl Deutschland
   '37010699': BNP Paribas Ndl Deutschland
   '37011000': Postbank Ndl DB PFK
@@ -1135,7 +1132,6 @@
   '37570024': DB PFK (Deutsche Bank PGK)
   '37570064': Deutsche Bank Leichlingen
   '38010053': Postbank Ndl DB PFK
-  '38010111': SEB Bonn
   '38010700': DSL Bank Ndl DB PFK
   '38010900': KfW Bonn
   '38010999': KfW Ausbildungsförderung
@@ -1162,7 +1158,7 @@
   '38250110': Kreissparkasse Euskirchen
   '38260082': Volksbank Euskirchen
   '38440016': Commerzbank Wiehl
-  '38450000': Spk Gummersbach-Bergneust
+  '38450000': Spk Gummersbach
   '38452490': Sparkasse Nümbrecht
   '38462135': Volksbank Oberberg
   '38470024': DB PFK (Deutsche Bank PGK)
@@ -1170,7 +1166,7 @@
   '38621500': Steyler Bank
   '38650000': Kr Spk Siegburg
   '38651390': Sparkasse Hennef
-  '39010111': SEB Düren
+  '39010111': DSK Hyp
   '39020000': Aachener Bauspk Aachen
   '39040013': Commerzbank Heinsberg
   '39050000': Sparkasse Aachen
@@ -1306,6 +1302,7 @@
   '42650150': Spk Recklinghausen
   '42651315': St Spk Haltern
   '42661008': VB Marl-Recklinghausen
+  '42661088': VB Marl-Recklinghausen
   '42661330': Volksbank Haltern
   '42661717': Volksbank Waltrop
   '42662320': Volksbank Dorsten
@@ -1334,7 +1331,7 @@
   '43250030': Herner Sparkasse
   '44000000': BBk Dortmund
   '44010046': Postbank Ndl DB PFK
-  '44010111': SEB Lünen
+  '44010111': DSK Hyp
   '44020090': UniCredit Bank-HypoVereinbk
   '44040037': Commerzbank Wetter Ruhr
   '44040060': Commerzbank CC Dortmund
@@ -1517,7 +1514,7 @@
   '49490070': VB Bad Oeynhausen-Herford
   '50000000': BBk Filiale Frankfurt Main
   '50010060': Postbank Ndl DB PFK
-  '50010111': SEB Sulzbach Taunus
+  '50010111': DSK Hyp
   '50010200': AKBANK
   '50010424': Aareal Bank
   '50010517': ING-DiBa Frankfurt am Main
@@ -1662,7 +1659,6 @@
   '50190000': Frankfurter Volksbank
   '50190300': Volksbank Höchst
   '50190400': Volksbank Griesheim Ffm
-  '50210112': SEB TZN MB Frankfurt
   '50210200': Rabobank Frankfurt Main
   '50210212': RaboDirect Frankfurt Main
   '50210295': Rabobank International CMS
@@ -1671,6 +1667,7 @@
   '50210900': CEP Germany Branch
   '50220085': UBS Europe
   '50220101': Kommunalkredit Deutschland
+  '50220300': WOORI BANK
   '50220500': Bank of Scotland
   '50220707': CAIXABANK Zndl Frankfurt
   '50220900': Hauck + Aufhäuser München
@@ -1682,7 +1679,7 @@
   '50230888': Ikano Wiesbaden
   '50234500': KT Bank Frankfurt
   '50250200': DL Finance Bad Homburg
-  '50310400': Barclays Bank Frankfurt
+  '50310400': Barclays Bank IE, Frankfurt
   '50310900': CCB Frankfurt
   '50320000': VTB Bank (Europe) Ffm
   '50320191': UniCredit Bank-HypoVereinbk
@@ -1700,7 +1697,7 @@
   '50330600': Bank Sepah Frankfurt, Main
   '50334400': BNY Mellon NL FFM
   '50400000': BBk Zentrale Frankfurt Main
-  '50510111': SEB Heusenstamm
+  '50510300': SMBC Bank EU - FFM a.M.
   '50520190': UniCredit Bank-HypoVereinbk
   '50522222': FIDOR Bank Frankfurt
   '50530000': Cronbank
@@ -1772,7 +1769,6 @@
   '50961685': Volksbank Überwald-Gorxheim
   '50970004': Deutsche Bank Heppenheim
   '50970024': DB PFK (Deutsche Bank PGK)
-  '51010111': SEB Wiesbaden
   '51010400': Aareal Bank
   '51010800': Aareal Bank Zw L Wiesbaden
   '51020000': BHF-BANK Wiesbaden
@@ -1827,7 +1823,7 @@
   '51230805': Wirecard Bank
   '51250000': Taunus Sparkasse Frankfurt
   '51300000': BBk Frankfurt eh Gießen
-  '51310111': SEB Wetzlar
+  '51310111': DSK Hyp
   '51340013': Commerzbank Bad Nauheim
   '51343224': Commerzbank Alsfeld
   '51350025': Sparkasse Gießen
@@ -1882,7 +1878,7 @@
   '52060208': Kurhessische Landbk Kassel
   '52060400': Evangelische Bank Gf Kassel
   '52060410': Evangelische Bank Stuttgart
-  '52061303': Raiffbk Borken
+  '52061303': Raiffbk Borken Nordhessen
   '52062200': VR-Bank Chattengau
   '52062601': VR PartnerBank
   '52063369': VR-Bank Spangenbg-Morschen
@@ -2008,7 +2004,7 @@
   '54862500': VR Bank Südpfalz
   '54891300': VR Bank Südl Weinstr-Wasgau
   '55000000': BBk Mainz
-  '55010111': SEB Kaiserslautern
+  '55010111': DSK Hyp
   '55010400': Aareal Bank GF - BK01 -
   '55010424': Aareal Bank
   '55010625': Aareal Clearing Wiesbaden
@@ -2157,7 +2153,6 @@
   '59010017': ZVCFK17 Postbank Ndl DB PFK
   '59010018': ZVCFK18 Postbank Ndl DB PFK
   '59010019': ZVCFK19 Postbank Ndl DB PFK
-  '59010020': POSTBANK NDL DB PFK
   '59010021': ZVCFK21 Postbank Ndl DB PFK
   '59010022': ZVCFK22 Postbank Ndl DB PFK
   '59010023': ZVCFK23 Postbank Ndl DB PFK
@@ -2236,7 +2231,7 @@
   '59491300': VR Bank Saarpfalz
   '60000000': BBk Stuttgart
   '60010070': Postbank Ndl DB PFK
-  '60010111': SEB Sindelfingen
+  '60010111': DSK Hyp
   '60010424': Aareal Bank
   '60010700': L-Bank Stuttgart -alt-
   '60020030': BW Bank Stuttgart
@@ -2657,7 +2652,7 @@
   '67092300': Volksbank Weinheim
   '67220286': UniCredit Bank-HypoVereinbk
   '67230000': MLP Bank
-  '67230001': MLP Bank Zw CS
+  '67230001': MLP Banking Zw CS
   '67240039': Commerzbank Eppelheim
   '67250020': Spk Heidelberg
   '67262243': Raiff Privatbk Wiesloch
@@ -2754,7 +2749,7 @@
   '69491700': Volksbank Triberg
   '70000000': BBk München
   '70010080': Postbank Ndl DB PFK
-  '70010111': SEB Ingolstadt Donau
+  '70010111': DSK Hyp
   '70010424': Aareal Bank
   '70010500': Deutsche Pfandbriefbank
   '70010555': Deutsche Pfandbriefbank
@@ -2844,7 +2839,7 @@
   '70120400': BNP Paribas ehem. DAB bank
   '70120500': CACEIS Bank, München
   '70120600': Airbus Bank
-  '70120700': Oberbank Hanau
+  '70120700': Oberbank Chemnitz
   '70130700': Lenz Bank München
   '70130799': Lenz Bank München Gf GAA
   '70130800': Merkur Bank München
@@ -2998,7 +2993,7 @@
   '72080001': Commerzbank Gersthofen
   '72090000': Augusta-Bank RVB Augsburg
   '72090500': Sparda-Bank Augsburg
-  '72090900': PSD Bank München Augsburg
+  '72090900': PSD Bank München-Augsburg
   '72091800': Volksbank Günzburg
   '72120078': UniCredit Bank-HypoVereinbk
   '72122181': UniCredit Bank-HypoVereinbk
@@ -3110,7 +3105,7 @@
   '74165013': Raiffeisenbank Sonnenwald
   '74180009': Commerzbank Deggendorf
   '74190000': VR GenoBank DonauWald
-  '74191000': VR-Bank Landau
+  '74191000': VR-Bank Landau-Mengkofen
   '74220075': UniCredit Bank-HypoVereinbk
   '74221170': UniCredit Bank-HypoVereinbk
   '74240062': Commerzbank Straubing
@@ -3136,7 +3131,6 @@
   '74369656': Raiffeisenbank Essenbach
   '74369662': Raiffbk Buch-Eching
   '74369704': Raiffbk Mengkofen-Loiching
-  '74369709': Raiffeisenbank Wildenberg
   '74380007': Commerzbank Landshut
   '74390000': VR-Bank Landshut
   '74391300': VB-Raiffbk Dingolfing
@@ -3355,7 +3349,7 @@
   '79161499': Raiffbk Kitzinger Land
   '79190000': VR Bank Kitzingen
   '79320075': UniCredit Bank-HypoVereinbk
-  '79330111': Bankhaus Max Flessa
+  '79330111': Bankhaus Max Flessa (Gf P2)
   '79340054': Commerzbank Bad Kissingen
   '79350000': Städt.Spk Schweinfurt -alt-
   '79350101': Spk Schweinfurt-Haßberge
@@ -3427,7 +3421,6 @@
   '81070024': DB PFK (Deutsche Bank PGK)
   '81080000': Commerzbank Haldensleben
   '81093034': Volksbank Gardelegen
-  '81093044': VB Osterbg-Lüchow-Dannenbg
   '81093054': Volksbank Stendal
   '81093274': VB Magdeburg
   '82000000': BBk Erfurt
@@ -3511,7 +3504,7 @@
   '85591000': VB Raiffbk Niederschlesien
   '86000000': BBk Leipzig
   '86010090': Postbank Ndl DB PFK
-  '86010111': SEB Zwickau
+  '86010111': DSK Hyp
   '86010424': Aareal Bank
   '86020086': UniCredit Bank-HypoVereinbk
   '86020500': Bank für Sozialwirtschaft
@@ -3562,6 +3555,6 @@
   '87095899': VB Vogtland GAA
   '87095934': Volksbank Zwickau
   '87095974': VB-RB Glauchau
-  '87096034': VB Erzgebirge
   '87096124': Volksbank Mittweida
   '87096214': Volksbank Chemnitz
+  ! '': 
