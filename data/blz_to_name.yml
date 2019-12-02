@@ -1,15 +1,14 @@
 ---
-:generated_at: 2019-09-02 14:18:23.744666026 +02:00
-:generated_from_url: https://www.bundesbank.de/resource/blob/602708/036c8afdb639744fcb0a8639c21a9ba4/mL/blz-neu-xls-data.xlsx
+:generated_at: 2019-12-02 09:07:06.899936707 +01:00
+:generated_from_url: https://www.bundesbank.de/resource/blob/602708/b68d6f72d67826c37806f62a34e07a48/mL/blz-neu-xls-data.xlsx
 :data:
   '10000000': BBk Berlin
   '10010010': Postbank Ndl DB PFK
-  '10010111': DSK Hyp
   '10010424': Aareal Bank
   '10011001': N26 Bank Berlin
   '10017997': Holvi - Berlin
-  '10019610': KOFIBA, Berlin
-  '10019670': KOFIBA Deckung, Berlin
+  '10019610': Helaba, Berlin
+  '10019670': Helaba Deckung, Berlin
   '10020200': BHF-BANK Berlin
   '10020500': Bank für Sozialwirtschaft
   '10020510': Sozialbank Berlin
@@ -97,7 +96,6 @@
   '13050000': Ostseesparkasse Rostock
   '13051042': Spk Vorpommern auf Rügen
   '13061008': Volksbank Wolgast
-  '13061028': Volksbank Raiffeisenbank
   '13061078': VB u Raiffbk
   '13061088': VB u Raiffbk -alt-
   '13061128': Raiffeisenbank Bad Doberan
@@ -251,7 +249,7 @@
   '20133300': Santander Bank Hamburg
   '20190003': Hamburger Volksbank
   '20190077': Hamburger Volksbank Gf GAA
-  '20190109': Volksbank VBS
+  '20190109': Volksbank Raiffeisenbank
   '20190206': VB Hamburg Ost-West -alt-
   '20190301': Vierländer VB Hamburg
   '20190800': MKB Hamburg
@@ -435,7 +433,7 @@
   '22180000': Commerzbank Elmshorn
   '22181400': Commerzbank Pinneberg
   '22190030': Volksbank Elmshorn
-  '22191405': VB Pinneberg-Elmshorn
+  '22191405': VR Bank in Holstein
   '22240073': Commerzbank Itzehoe
   '22250020': Spk Westholstein
   '22280000': Commerzbank Itzehoe
@@ -831,7 +829,6 @@
   '29280011': Commerzbank Bremerhaven
   '29290034': VB Bremerh-Wesermünde -alt-
   '30000000': BBk Düsseldorf
-  '30010111': DSK Hyp
   '30010400': IKB Düsseldorf
   '30010444': IKB Privatkunden Düsseldorf
   '30010700': MUFG Bank
@@ -889,7 +886,6 @@
   '30130100': Demir-Halk Bank Düsseldorf
   '30130200': GarantiBank Int Düsseldorf
   '30130600': Isbank Düsseldorf
-  '30130800': Düsseldorfer Hypothekenbank
   '30150001': Helaba Dus, Gf Ver. FI-Dus
   '30150200': Kr Spk Düsseldorf Heiligenh
   '30160213': VB Düsseldorf Neuss
@@ -1052,7 +1048,7 @@
   '37021400': Ford Bank (Gf EG), Köln
   '37021500': Ford Bank, Köln
   '37021548': Ford Bank (GF EG), Köln
-  '37030200': Oppenheim, Sal - jr & Cie
+  '37030200': Deutsche Oppenheim Köln
   '37030700': abcbank Köln
   '37030800': Isbank Köln
   '37040037': Commerzbank CC SP, Köln
@@ -1068,7 +1064,7 @@
   '37060615': apoBank Köln
   '37060993': PSD Bank Köln
   '37062124': Bensberger Bank
-  '37062365': Raiffbk Frechen-Hürth
+  '37062365': VB Rhein-Erft-Köln
   '37062600': VR Bank Berg.Gladbach-Lever
   '37063367': Raiffbk Fischenich-Kende
   '37069101': Spar-u Darlehnskasse
@@ -1204,7 +1200,7 @@
   '40060614': apoBank Münster
   '40061238': Volksbank Greven
   '40069226': Volksbank Lette-Darup-Rorup
-  '40069266': Volksbank Marsberg
+  '40069266': VB im Hochsauerland
   '40069283': Volksbank Schlangen
   '40069348': Volksbank Medebach
   '40069362': Volksbank Saerbeck
@@ -1235,7 +1231,7 @@
   '40164024': Volksbank Gronau-Ahaus
   '40164256': VB Laer-Horstmar-Leer
   '40164352': Volksbank Nottuln
-  '40164528': VB Lüdinghausen-Olfen
+  '40164528': VB Südmünsterland-Mitte
   '40164618': Volksbank Ochtrup-Laer
   '40164901': Volksbank Gescher
   '40165366': Volksbank Selm-Bork
@@ -1245,7 +1241,7 @@
   '40350005': St Spk Rheine
   '40351060': Kr Spk Steinfurt
   '40351220': Sparkasse Steinfurt -alt-
-  '40361627': VB Westerkappeln-Wersen
+  '40361627': VB Westerkappeln-Saerbeck
   '40361906': VR-Bank Kreis Steinfurt
   '40363433': Volksbank Hörstel -alt-
   '40370024': DB PFK (Deutsche Bank PGK)
@@ -1402,7 +1398,7 @@
   '46051240': Spk Burbach-Neunkirchen
   '46051733': St Spk Freudenberg -alt-
   '46051875': St Spk Hilchenbach -alt-
-  '46052855': St Spk Schmallenberg Sauerl
+  '46052855': St Spk Schmallenberg -alt-
   '46053480': Sparkasse Wittgenstein
   '46060040': Volksbank Siegerland Siegen
   '46061724': VR-Bank Freudenb.-Niederfi.
@@ -1471,7 +1467,7 @@
   '47880031': Commerzbank Rheda-Wiedenb
   '48000000': BBk Bielefeld
   '48020086': UniCredit Bank-HypoVereinbk
-  '48020151': Bankhaus Lampe Bremen
+  '48020151': Bankhaus Lampe Bonn
   '48021900': Bankv.Werther ZwNdl VV OWL
   '48040035': Commerzbank Marsberg
   '48040060': Commerzbank CC Bielefeld
@@ -1534,7 +1530,6 @@
   '50021100': FIL Fondsbank Frankfurt
   '50021120': FIL Fondsbank Kronberg
   '50022200': HCBE Frankfurt am Main
-  '50023400': Bank of Beirut Frankfurt
   '50025000': Opel Bank
   '50030000': PSA Bank Neu-Isenburg
   '50030010': PSA Bank Neu-Isenburg
@@ -1652,7 +1647,7 @@
   '50123400': VTB Direktbank
   '50127000': PKO Bank Polski Frankfurt
   '50130000': Naba Frankfurt Main
-  '50130200': Oppenheim, Sal - jr & Cie
+  '50130200': Deutsche Oppenheim FFM
   '50130400': Merck Finck Privatbankiers
   '50130600': UBS Europe
   '50131000': Vietinbank
@@ -1662,7 +1657,6 @@
   '50210200': Rabobank Frankfurt Main
   '50210212': RaboDirect Frankfurt Main
   '50210295': Rabobank International CMS
-  '50210600': equinet Bank, Frankfurt
   '50210800': ProCredit Bank, Frankfurt
   '50210900': CEP Germany Branch
   '50220085': UBS Europe
@@ -1690,8 +1684,8 @@
   '50324015': ABN AMRO Bank, Prospery
   '50324040': ABN AMRO Bank MoneYou, Ffm
   '50330000': State Bk of India Frankfurt
-  '50330200': MHB-Bank Frankfurt
-  '50330201': MHB-Bank
+  '50330200': Raisin Bank Frankfurt
+  '50330201': Raisin Bank
   '50330300': The Bank of New York Mellon
   '50330500': CHAABI BANK FRANKFURT
   '50330600': Bank Sepah Frankfurt, Main
@@ -1770,7 +1764,6 @@
   '50970004': Deutsche Bank Heppenheim
   '50970024': DB PFK (Deutsche Bank PGK)
   '51010400': Aareal Bank
-  '51010800': Aareal Bank Zw L Wiesbaden
   '51020000': BHF-BANK Wiesbaden
   '51020186': UniCredit Bank-HypoVereinbk
   '51040038': Commerzbank Taunusstein
@@ -1837,7 +1830,7 @@
   '51390000': VB Mittelhessen
   '51410600': Bofa Merrill Lynch Intl.FFM
   '51410700': Bank of China Frankfurt
-  '51410800': comdirect + GF onvista bank
+  '51410800': comdirect + GB onvista bank
   '51420200': Misr Bank-Europe Ffm
   '51420300': Bank Julius Bär Frankfurt
   '51420600': Svenska Handelsbanken
@@ -1901,7 +1894,7 @@
   '52090611': apoBank Kassel
   '52240006': Commerzbank Eschwege
   '52250030': Sparkasse Werra-Meißner
-  '52260385': VR-Bank Werra-Meißner
+  '52260385': VR-Bank Mitte
   '52270012': Deutsche Bank Eschwege
   '52270024': DB PFK (Deutsche Bank PGK)
   '52350005': Spk Waldeck-Frankenberg
@@ -1922,7 +1915,7 @@
   '53060180': VR Bank Fulda
   '53061230': VR-Bank NordRhön Hünfeld
   '53061313': VR Bk Schlüchtern-Birstein
-  '53062035': Raiffeisenbank Hosenfeld
+  '53062035': RB im Fuldaer Land Hos.
   '53062350': Raiffbk Biebergrd-Petersbg
   '53064023': Raiffeisenbank Flieden
   '53070007': Deutsche Bank Lauterbach He
@@ -1996,7 +1989,7 @@
   '54690623': apoBank Neustadt, Weinstr
   '54691200': VR Bank Mittelhaardt
   '54750010': Kr u St Spk Speyer
-  '54790000': VB Kur- und Rheinpfalz
+  '54790000': VerVR Bank Kur-u Rheinpfalz
   '54850010': Spk Südl Weinstr in Landau
   '54851440': Spk Kuhardt
   '54861190': Raiffbk Oberhaardt-Gäu
@@ -2094,7 +2087,7 @@
   '57070045': Deutsche Bank Montabaur
   '57080070': Commerzbank Andernach
   '57090000': VB Koblenz Mittelrhein
-  '57090010': VB Koblenz Mittelrhein GAA
+  '57090010': VB Koblenz Mittelrhein-alt-
   '57090900': PSD Bank Koblenz
   '57091000': VB Montabaur - Höhr-GrH
   '57091100': VB Höhr-Grenzhausen -alt-
@@ -2116,6 +2109,7 @@
   '57662263': VR Bank Rhein-Mosel
   '57751310': Kr Spk Ahrweiler
   '57761591': VB RheinAhrEifel
+  '57761599': Voba RheinAhrEifel GAA
   '57762265': Raiffbk Grafschaft-Wachtbg
   '58520086': UniCredit Bank-HypoVereinbk
   '58540035': Commerzbank Wittlich
@@ -2313,7 +2307,7 @@
   '60069705': Raiffeisenbank Schlat -alt-
   '60069706': Raiffbk Mehrstetten
   '60069710': Raiffbk Gammesfeld
-  '60069714': Raiffeisenbank Kocher-Jagst
+  '60069714': Raiffbk Hohenloher Land
   '60069727': Raiffbk Oberstenfeld
   '60069738': VB Freiberg und Umgebung
   '60069766': Volks- u Raiffbk Boll -alt-
@@ -2376,10 +2370,10 @@
   '60390300': Volksbank Leonberg-Strohgäu
   '60391310': VB Herrenbg-Nagold-Rottenbg
   '60391420': VR-Bank Magstadt-Weissach
-  '60410600': Wüstenrot Bank
-  '60420000': Wüstenrot Bank
-  '60420020': Wüstenrot Bank
-  '60420021': Wüstenrot Bank
+  '60410600': OLB
+  '60420000': OLB
+  '60420020': OLB
+  '60420021': OLB
   '60420186': UniCredit Bank-HypoVereinbk
   '60422000': RSB-Bank Kornwestheim
   '60440073': Commerzbank Bietigheim-Biss
@@ -2750,9 +2744,9 @@
   '70010080': Postbank Ndl DB PFK
   '70010111': DSK Hyp
   '70010424': Aareal Bank
-  '70010500': Deutsche Pfandbriefbank
-  '70010555': Deutsche Pfandbriefbank
-  '70010570': Deutsche Pfandbriefbank
+  '70010500': pbb, Garching
+  '70010555': pbb, Garching
+  '70010570': pbb, Garching
   '70010800': Middle East Bank, München
   '70011100': Deutsche Handelsbank
   '70011110': Deutsche Handelsbank
@@ -2838,7 +2832,7 @@
   '70120400': BNP Paribas Deutschland
   '70120500': CACEIS Bank, München
   '70120600': Airbus Bank
-  '70120700': Oberbank StuttgartEsslingen
+  '70120700': Oberbank Heilbronn
   '70130700': Lenz Bank München
   '70130799': Lenz Bank München Gf GAA
   '70130800': Merkur Bank München
@@ -2991,7 +2985,7 @@
   '72070001': Deutsche Bank Donauwörth
   '72070024': DB PFK (Deutsche Bank PGK)
   '72080001': Commerzbank Gersthofen
-  '72090000': Augusta-Bank RVB Augsburg
+  '72090000': VR Bank Augsburg-Ostallgäu
   '72090500': Sparda-Bank Augsburg
   '72090900': PSD Bank München-Augsburg
   '72091800': Volksbank Günzburg
@@ -3022,7 +3016,7 @@
   '72223182': UniCredit Bank-HypoVereinbk
   '72250000': Sparkasse Nördlingen
   '72250160': Spk Donauwörth
-  '72251520': Kr u St Spk Dillingen
+  '72251520': Spk Dillingen-Nördlingen
   '72261754': Raiffeisenbank Rain am Lech
   '72262401': Raiff-VB Dillingen
   '72290100': Raiff-VB Donauwörth
@@ -3069,7 +3063,7 @@
   '73440048': Commerzbank KB F-K48
   '73450000': Kr u St Spk Kaufbeuren
   '73451450': Kr Spk Schongau -alt-
-  '73460046': VR Bk Kaufbeuren-Ostallgäu
+  '73460046': VR Bank Augsburg-Ostallgäu
   '73480013': Commerzbank Kaufbeuren
   '74020074': UniCredit Bank-HypoVereinbk
   '74020100': RLB OÖ Zndl Süddeutschland
@@ -3153,7 +3147,7 @@
   '75069038': Raiffbk Falkenstein-Wörth
   '75069050': Raiffbk Grafenwöhr-Kirchent
   '75069055': Raiffbk Alteglofshm-Hagelst
-  '75069061': Raiffbk Hemau-Kallmünz
+  '75069061': Raiffbk im Oberpf. Jura
   '75069078': Raiffeisenbank Sinzing
   '75069081': Raiffeisenbank Bad Kötzting
   '75069094': Raiffbk Parsberg-Velburg
@@ -3254,7 +3248,7 @@
   '76351040': Sparkasse Forchheim
   '76351560': Kr Spk Höchstadt
   '76360033': VR-Bank EHH
-  '76391000': Volksbank Forchheim
+  '76391000': VR Bank Bamberg-Forchheim
   '76420080': UniCredit Bank-HypoVereinbk
   '76450000': Spk Mittelfranken-Süd
   '76460015': Raiffbk Roth-Schwabach
@@ -3274,12 +3268,10 @@
   '77061425': Raiffeisen-Volksbank Ebern
   '77062014': RB Burgebrach-Stegaurach
   '77062139': Raiff-VB Bad Staffelstein
-  '77069042': Raiffbk Gößweinstein -alt-
   '77069044': Raiffbk Küps-Mitwitz-Stockh
   '77069051': Raiffbk Heiligenstadt
   '77069052': Raiffeisenbank Heroldsbach
   '77069091': Raiffeisenbank Ebrachgrund
-  '77069110': Raiffbk Pretzfeld -alt-
   '77069461': Vereinigte Raiffeisenbanken
   '77069739': Raiffbk Thurnauer Land
   '77069746': Raiffbk Emtmannsberg
@@ -3320,7 +3312,7 @@
   '79000000': BBk Würzburg
   '79020076': UniCredit Bank-HypoVereinbk
   '79030001': Fürstl. Castellsche Bank
-  '79032038': Bank Schilling & Co
+  '79032038': Merkur Bank
   '79040047': Commerzbank Kitzingen
   '79050000': Spk Mainfranken
   '79061000': Raiffeisenbank Ochsenfurt
@@ -3371,7 +3363,7 @@
   '79570051': Deutsche Bank Miltenberg
   '79580099': Commerzbank Aschaffenburg
   '79589402': Commerzbank ITGK Aschaff.
-  '79590000': VB Aschaffenbg Großostheim
+  '79590000': Volksbank Aschaffenburg
   '79650000': Spk Miltenberg-Obernburg
   '79665540': Raiffbk Elsavatal
   '79666548': Raiffbk Großostheim-Obernb.
@@ -3483,7 +3475,6 @@
   '85040060': Commerzbank CC Dresden
   '85040061': Commerzbank CC Dresden
   '85050100': Spk Oberlausitz-Niederschl.
-  '85050200': Kr Spk Riesa-Großenhain alt
   '85050300': Ostsächsische Spk Dresden
   '85055000': Spk Meißen
   '85060000': VB Pirna
@@ -3538,10 +3529,8 @@
   '87050000': Sparkasse Chemnitz
   '87051000': Spk Mittelsachsen
   '87052000': Spk Mittelsachsen
-  '87053000': Spk Mittleres Erzgebg -alt-
   '87054000': Erzgebirgssparkasse
   '87055000': Sparkasse Zwickau
-  '87056000': Kr Spk Aue-Schwarzenbg -alt
   '87058000': Sparkasse Vogtland
   '87069075': VB Mittl Erzgebirge
   '87069077': Ver Raiffbk Burgstädt
@@ -3554,4 +3543,3 @@
   '87095974': VB-RB Glauchau
   '87096124': Volksbank Mittweida
   '87096214': Volksbank Chemnitz
-  ! '': 
