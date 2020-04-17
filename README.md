@@ -8,7 +8,6 @@ When in doubt, this library aims to err on the side of allowing too much. We've 
 
 If we got anything wrong, please file an issue or contribute a fix yourself.
 
-
 ## Usage
 
 ```ruby
