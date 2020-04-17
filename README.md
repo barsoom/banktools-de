@@ -9,39 +9,41 @@ If we got anything wrong, please file an issue or contribute a fix yourself.
 
 ## Usage
 
-    # BLZ
+```ruby
+# BLZ
 
-    blz = BankTools::DE::BLZ.new("10070024")
-    blz.normalize  # => "100 700 24"
-    blz.valid?  # => true
-    blz.errors  # => []
-    blz.bank_name  # => "Deutsche Bank PGK Berlin"
-    BankTools::DE::BLZ.blz_to_bank_name  # => { "10070024" => "Deutsche Bank PGK Berlin", … }
+blz = BankTools::DE::BLZ.new("10070024")
+blz.normalize  # => "100 700 24"
+blz.valid?  # => true
+blz.errors  # => []
+blz.bank_name  # => "Deutsche Bank PGK Berlin"
+BankTools::DE::BLZ.blz_to_bank_name  # => { "10070024" => "Deutsche Bank PGK Berlin", … }
 
-    bad_blz = BankTools::DE::BLZ.new("1X")
-    bad_blz.normalize  # => "1X"
-    bad_blz.valid?  # => false
-    bad_blz.errors  # => [:too_short, :invalid_characters]
-    blz.bank_name  # => nil
+bad_blz = BankTools::DE::BLZ.new("1X")
+bad_blz.normalize  # => "1X"
+bad_blz.valid?  # => false
+bad_blz.errors  # => [:too_short, :invalid_characters]
+blz.bank_name  # => nil
 
-    # Account
+# Account
 
-    account = BankTools::DE::Account.new("123456789")
-    account.normalize  # => "123 456 789"
-    account.valid?  # => true
-    account.errors  # => []
+account = BankTools::DE::Account.new("123456789")
+account.normalize  # => "123 456 789"
+account.valid?  # => true
+account.errors  # => []
 
-    bad_account = BankTools::DE::Account.new("1")
-    bad_account.normalize  # => "1"
-    bad_account.valid?  # => false
-    bad_account.errors  # => [:too_short]
+bad_account = BankTools::DE::Account.new("1")
+bad_account.normalize  # => "1"
+bad_account.valid?  # => false
+bad_account.errors  # => [:too_short]
 
-    # Convert BLZ and account number to IBAN/BIC
+# Convert BLZ and account number to IBAN/BIC
 
-    result = BankTools::DE::IbanBicConverter.call(blz: "37040044", account: "532013000")
-    result.iban  # => "DE89370400440532013000"
-    result.bic   # => "COBADEFFXXX"
-    # Or raises an exception.
+result = BankTools::DE::IbanBicConverter.call(blz: "37040044", account: "532013000")
+result.iban  # => "DE89370400440532013000"
+result.bic   # => "COBADEFFXXX"
+# Or raises an exception.
+```
 
 ## Tests
 
@@ -75,7 +77,9 @@ Bump the gem tiny version (e.g. 1.1.1 -> 1.1.2) and make a new release (`rake re
 
 Add this line to your application's Gemfile:
 
-    gem 'banktools-de'
+```ruby
+gem 'banktools-de'
+```
 
 And then execute:
 
