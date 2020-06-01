@@ -1,6 +1,6 @@
 ---
-:generated_at: 2020-03-02 11:23:12.389715146 +01:00
-:generated_from_url: https://www.bundesbank.de/resource/blob/602630/20faacc2e44cf0c02ff37edb4d8a6ea6/mL/blz-aktuell-xls-data.xlsx
+:generated_at: 2020-06-01 11:27:31.428606104 +02:00
+:generated_from_url: https://www.bundesbank.de/resource/blob/602630/ed908ce56cfd9cdc7298ce7a2ecfa992/mL/blz-aktuell-xls-data.xlsx
 :data:
   '10000000': BBk Berlin
   '10010010': Postbank Ndl DB PFK
@@ -16,7 +16,7 @@
   '10020890': UniCredit Bank-HypoVereinbk
   '10030200': Berlin Hyp
   '10030400': ABK Bank Berlin
-  '10030500': Bankhaus Löbbecke Berlin
+  '10030500': M.M. Warburg (Löbbecke)
   '10030600': North Channel Bank Mainz
   '10030700': Eurocity Bank
   '10030730': Eurocity Bank Gf GAA
@@ -123,7 +123,7 @@
   '15050500': Spk Vorpommern
   '15051732': Spk Meckl-Strelitz Feldberg
   '15061618': Raiffbk Mecklenb Seenplatte
-  '15061638': Volksbank Raiffeisenbank
+  '15061638': VB Vorpommern
   '15061698': Raiffeisenbank Malchin
   '15080000': Commerzbank Pasewalk
   '15091674': Volksbank Demmin
@@ -490,7 +490,7 @@
   '25050299': Kr Spk Hannover -alt-
   '25055500': LBS-Nord, Hannover
   '25060000': DZ BANK Hannover
-  '25060180': Bankhaus Hallbaum
+  '25060180': M.M. Warburg (Hallbaum)
   '25069168': VB u RB Leinebgld Delligsen
   '25069262': Raiff-VB Neustadt
   '25069270': Volksbank Aller-Oker
@@ -514,7 +514,7 @@
   '25151371': Stadtsparkasse Burgdorf
   '25152375': Kr Spk Fallingbostel
   '25152490': St Spk Wunstorf
-  '25190001': Volksbank Celle
+  '25190001': Hannoversche Volksbank
   '25190088': HanVB - GS nur für GAA
   '25193331': Volksbank
   '25250001': Kreissparkasse Peine -alt-
@@ -532,7 +532,6 @@
   '25471073': Deutsche Bank Rinteln
   '25480021': Commerzbank Hameln
   '25491273': Volksbank Aerzen
-  '25491744': Volksbank Bad Münder
   '25541426': Commerzbank Bückeburg
   '25551480': Sparkasse Schaumburg
   '25591413': Volksbank in Schaumburg
@@ -545,6 +544,7 @@
   '25690009': Volksbank Nienburg
   '25690010': Volksbank Nienburg (GAA)
   '25691633': Volksbank Sulingen
+  '25691699': Volksbank Sulingen
   '25740061': Commerzbank Celle
   '25750001': Sparkasse Bergen Celle
   '25761894': Volksbank Wittingen-Klötze
@@ -737,7 +737,7 @@
   '28069706': Volksbank Nordhümmling
   '28069755': Raiffeisenbank Oldersum
   '28069773': Raiffbk Wiesederm-Wiesede-M
-  '28069878': Raiffbk Emsland-Mitte
+  '28069878': Raiffeisenbank Ems-Vechte
   '28069926': VB Niedergrafschaft
   '28069930': VB Langen-Gersten
   '28069935': Raiffeisenbank Lorup
@@ -788,7 +788,7 @@
   '29020000': Bankhaus Neelmeyer Bremen
   '29020100': Oldb Landesbank Bremen
   '29020200': Greensill Bank Bremen
-  '29030400': Plumpbank Bremen
+  '29030400': M.M. Warburg (Plump)
   '29040060': Commerzbank CC Bremen
   '29040061': Commerzbank CC Bremen
   '29040090': Commerzbank Achim Bremen
@@ -1043,9 +1043,6 @@
   '37020500': Bank für Sozialwirtschaft
   '37020600': Santander Consumer Bk Köln
   '37020900': Ford Bank Köln
-  '37021100': Ford Bank, Köln
-  '37021300': Ford Bank, Köln
-  '37021400': Ford Bank (Gf EG), Köln
   '37021500': Ford Bank, Köln
   '37021548': Ford Bank (GF EG), Köln
   '37030200': Deutsche Oppenheim Köln
@@ -1262,7 +1259,6 @@
   '41261324': VB Enniger-Ostenfelde-Westk
   '41261419': VB Oelde-Ennigerloh-Neubeck
   '41262501': Volksbank
-  '41262621': Ver VB Telgte
   '41280043': Commerzbank Lippstadt
   '41440018': Commerzbank Soest Westf
   '41450075': Sparkasse SoestWerl
@@ -1577,8 +1573,14 @@
   '50060417': DZ BANK Gf VK 7
   '50060418': DZ BANK Gf VK8
   '50060419': DZ BANK Gf VK9
+  '50060420': DZ BANK Gf V20
+  '50060421': DZ BANK Gf V21
+  '50060422': DZ BANK Gf V22
+  '50060423': DZ BANK Gf V23
+  '50060424': DZ BANK Gf V24
+  '50060425': DZ BANK Gf V25
   '50060474': DZ BANK
-  '50061741': Raiffeisenbank Oberursel
+  '50061741': RB im Hochtaunus Bad Hom
   '50069126': VRB Alzey-Land-Schwabenheim
   '50069146': Volksbank Grebenhain
   '50069187': Volksbank Egelsbach -alt-
@@ -1869,7 +1871,6 @@
   '52053458': St Spk Schwalmstadt
   '52060000': DZ BANK
   '52060208': Kurhessische Landbk Kassel
-  '52060400': Evangelische Bank Gf Kassel
   '52060410': Evangelische Bank Stuttgart
   '52061303': Raiffbk Borken Nordhessen
   '52062200': VR-Bank Chattengau
@@ -2229,7 +2230,7 @@
   '60010424': Aareal Bank
   '60010700': L-Bank Stuttgart -alt-
   '60020030': BW Bank Stuttgart
-  '60020100': Schwäbische Bank Stuttgart
+  '60020100': M.M. Warburg (Schwäb. Bk.)
   '60020290': UniCredit Bank-HypoVereinbk
   '60020300': BNP Paribas Ndl. Dt.
   '60030000': Mercedes-Benz Bank
@@ -2832,7 +2833,7 @@
   '70120400': BNP Paribas Deutschland
   '70120500': CACEIS Bank, München
   '70120600': Airbus Bank
-  '70120700': Oberbank Heilbronn
+  '70120700': Oberbank Freiburg
   '70130700': Lenz Bank München
   '70130799': Lenz Bank München Gf GAA
   '70130800': Merkur Bank München
@@ -3014,7 +3015,7 @@
   '72191600': Hallertauer Volksbank
   '72220074': UniCredit Bank-HypoVereinbk
   '72223182': UniCredit Bank-HypoVereinbk
-  '72250000': Sparkasse Nördlingen
+  '72250000': Sparkasse Nördlingen -alt-
   '72250160': Spk Donauwörth
   '72251520': Spk Dillingen-Nördlingen
   '72261754': Raiffeisenbank Rain am Lech
@@ -3240,7 +3241,7 @@
   '76230000': BSQ Bauspar Nürnberg
   '76240011': Commerzbank Zirndorf
   '76250000': Spk Fürth
-  '76251020': Spk i Landkreis Neustadt
+  '76251020': Sparkasse i. Lkr. NEA-BWI
   '76260451': Raiffeisen-Volksbank Fürth
   '76320072': UniCredit Bank-HypoVereinbk
   '76340061': Commerzbank Erlangen
@@ -3294,7 +3295,7 @@
   '77350110': Sparkasse Bayreuth
   '77361600': Raiff-VB Kronach-Ludwigssta
   '77363749': Raiffeisenbank Gefrees
-  '77365792': Raiffbk Hollfeld-Waischenfd
+  '77365792': RB Fränkische Schweiz
   '77390000': VB-Raiffbk Bayreuth
   '77390628': apoBank Bayreuth
   '78020070': UniCredit Bank-HypoVereinbk
