@@ -1,9 +1,10 @@
 ---
-:generated_at: 2020-06-01 11:27:31.428606104 +02:00
-:generated_from_url: https://www.bundesbank.de/resource/blob/602630/ed908ce56cfd9cdc7298ce7a2ecfa992/mL/blz-aktuell-xls-data.xlsx
+:generated_at: 2020-06-08 09:11:23.098699465 +02:00
+:generated_from_url: https://www.bundesbank.de/resource/blob/602630/2c60c5bacbde19cf9ad0f4910371e982/mL/blz-aktuell-xls-data.xlsx
 :data:
   '10000000': BBk Berlin
   '10010010': Postbank Ndl DB PFK
+  '10010123': Olinda, Berlin
   '10010424': Aareal Bank
   '10011001': N26 Bank Berlin
   '10017997': Holvi - Berlin
@@ -257,7 +258,7 @@
   '20210300': Bank Saderat Iran Hamburg
   '20220100': DNB Bank
   '20220400': M.M. Warburg Hyp Hamburg
-  '20220800': SAXOPAYMENTS
+  '20220800': Banking Circle Germany
   '20230300': Schröderbank Hamburg
   '20230600': Isbank Hamburg
   '20230800': Sutor Bank Hamburg
@@ -406,7 +407,7 @@
   '21570024': DB PFK (Deutsche Bank PGK)
   '21580000': Commerzbank Flensburg
   '21661719': VR Bank Flensburg-Schleswig
-  '21690020': Schleswiger Volksbank
+  '21690020': VR Bank SL MH
   '21740043': Commerzbank Husum Nordsee
   '21741674': Commerzbank Niebüll
   '21741825': Commerzbank Westerland
@@ -494,7 +495,6 @@
   '25069168': VB u RB Leinebgld Delligsen
   '25069262': Raiff-VB Neustadt
   '25069270': Volksbank Aller-Oker
-  '25069370': VB Vechelde-Wendeburg
   '25069503': VB Diepholz-Barnstorf
   '25070024': DB PFK (Deutsche Bank PGK)
   '25070066': Deutsche Bank Stadthagen
@@ -677,7 +677,6 @@
   '27090900': PSD Bank Braunschweig
   '27092555': Volksbank
   '27131300': Rautenschlein Schöningen
-  '27190082': Volksbank Helmstedt
   '27240004': Commerzbank Holzminden
   '27290087': VB Weserbergland Holzminden
   '27893359': Volksbank Braunlage
@@ -703,7 +702,7 @@
   '28050100': Landessparkasse Oldenburg
   '28060228': Raiffbk Oldenburg
   '28061410': Raiffbk Wesermarsch-Süd
-  '28061501': VR-Bank Südoldenburg Garrel
+  '28061501': VR-Bank Südoldenburg
   '28061679': Volksbank Dammer Berge
   '28061822': Volksbank Oldenburg
   '28062165': Raiffeisenbank Rastede
@@ -1059,7 +1058,7 @@
   '37060193': Pax-Bank Köln
   '37060590': Sparda-Bank West
   '37060615': apoBank Köln
-  '37060993': PSD Bank Köln
+  '37060993': PSD Bank West
   '37062124': Bensberger Bank
   '37062365': VB Rhein-Erft-Köln
   '37062600': VR Bank Berg.Gladbach-Lever
@@ -1193,7 +1192,7 @@
   '40060000': DZ BANK Münster
   '40060265': DKM Darlehnskasse Münster
   '40060300': DZ HYP - Münster
-  '40060560': Sparda-Bank Münster
+  '40060560': Sparda-Bank West
   '40060614': apoBank Münster
   '40061238': Volksbank Greven
   '40069226': Volksbank Lette-Darup-Rorup
@@ -1405,14 +1404,14 @@
   '46080010': Commerzbank Bad Marienbg
   '46240016': Commerzbank Olpe Biggesee
   '46250049': Spk Olpe-Drolshagen-Wenden
-  '46251590': Spk Finnentrop
+  '46251590': Spk Finnentrop -alt-
   '46251630': Spk Attend-Lennest-Kirchhdm
   '46260023': Volksbank Olpe
   '46261607': Volksbank Grevenbrück
   '46261822': Volksbank Wenden-Drolshagen
   '46262456': Volksbank Bigge-Lenne
   '46441003': Commerzbank Meschede
-  '46451012': Sparkasse Meschede
+  '46451012': Spk Mitten im Sauerland
   '46451250': Spk Bestwig -alt-
   '46461126': Volksbank Sauerland
   '46462271': SpDK Oeventrop
@@ -1443,7 +1442,7 @@
   '47460028': Volksbank Warburger Land
   '47640051': Commerzbank Bad Pyrmont
   '47650130': Spk Paderborn-Detmold
-  '47651225': St Spk Blomberg
+  '47651225': St Spk Blomberg -alt-
   '47670023': Deutsche Bank Horn-Bad Mein
   '47670024': DB PFK (Deutsche Bank PGK)
   '47691200': VB Schieder-Schwalenberg
@@ -1565,20 +1564,20 @@
   '50050999': DekaBank Frankfurt
   '50060000': DZ Bank
   '50060400': DZ BANK
-  '50060412': DZ BANK Gf vK
-  '50060413': DZ BANK Gf VK 2
+  '50060412': DZ BANK GF DZH
+  '50060413': DZ BANK GF ODA
   '50060414': DZ BANK für BSH
   '50060415': DZ BANK für BSH
-  '50060416': DZ BANK Gf VK 6
-  '50060417': DZ BANK Gf VK 7
-  '50060418': DZ BANK Gf VK8
-  '50060419': DZ BANK Gf VK9
-  '50060420': DZ BANK Gf V20
-  '50060421': DZ BANK Gf V21
-  '50060422': DZ BANK Gf V22
-  '50060423': DZ BANK Gf V23
-  '50060424': DZ BANK Gf V24
-  '50060425': DZ BANK Gf V25
+  '50060416': DZ BANK GF TSG
+  '50060417': DZ BANK GF BMT
+  '50060418': DZ BANK GF BMT
+  '50060419': DZ BANK GF VRF
+  '50060420': DZ BANK GF BSH
+  '50060421': DZ BANK GF BSH
+  '50060422': DZ BANK GF GRX
+  '50060423': DZ BANK GF GRX
+  '50060424': DZ BANK GF DEV
+  '50060425': DZ BANK GF BSH
   '50060474': DZ BANK
   '50061741': RB im Hochtaunus Bad Hom
   '50069126': VRB Alzey-Land-Schwabenheim
@@ -2117,7 +2116,6 @@
   '58550130': Sparkasse Trier
   '58560103': Volksbank Trier
   '58560294': Pax-Bank Trier
-  '58561250': Volksbank Hermeskeil -alt-
   '58561626': Volksbank Saarburg
   '58561771': Raiffbk Mehring-Leiwen
   '58564788': VB Hochwald-Saarburg
@@ -2349,7 +2347,6 @@
   '60090900': PSD Bank RheinNeckarSaar
   '60120200': BHF-BANK Stuttgart
   '60120500': Bank für Sozialwirtschaft
-  '60130100': FFS Bank Stuttgart
   '60133300': Santander Bank Stuttgart
   '60241074': Commerzbank Backnang
   '60250010': Kr Spk Waiblingen
@@ -2386,7 +2383,6 @@
   '60480008': Commerzbank Bietigheim-Bi
   '60490150': Volksbank Ludwigsburg
   '60491430': VR-Bank Neckar-Enz
-  '60651070': Kreissparkasse Calw -alt-
   '60661906': Raiffbk Wimsheim-Mönsheim
   '60663084': Raiffbk Calw
   '60670024': DB PFK (Deutsche Bank PGK)
@@ -2833,14 +2829,13 @@
   '70120400': BNP Paribas Deutschland
   '70120500': CACEIS Bank, München
   '70120600': Airbus Bank
-  '70120700': Oberbank Freiburg
+  '70120700': Oberbank Karlsruhe
   '70130700': Lenz Bank München
   '70130799': Lenz Bank München Gf GAA
   '70130800': Merkur Bank München
   '70133300': Santander Bank München
   '70150000': Stadtsparkasse München
   '70160000': DZ BANK München
-  '70160300': Raiffbk München -alt-
   '70163370': VR-Bank Fürstenfeldbruck
   '70166486': VR Bank München Land
   '70169132': Raiffbk Griesstätt-Halfing
@@ -2870,7 +2865,6 @@
   '70169470': Raiffeisenbank München-Süd
   '70169474': Raiffbk NSV-NBK
   '70169476': Raiffbk -alt-
-  '70169493': Raiffbk Oberschleißheim
   '70169509': Raiffbk Pfaffenwinkel
   '70169521': Raiffeisenbank Raisting
   '70169524': Raiffeisenbank RSA
