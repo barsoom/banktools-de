@@ -1,6 +1,6 @@
 ---
-:generated_at: 2020-12-05 16:03:06.357926982 +01:00
-:generated_from_url: https://www.bundesbank.de/resource/blob/602630/44bc0b1d5c6f9ad635b1fa8bf18b92d4/mL/blz-neu-xls-data.xlsx
+:generated_at: 2021-03-08 11:03:37.627397363 +01:00
+:generated_from_url: https://trello-attachments.s3.amazonaws.com/517e29dbf08bebb51e00606e/6045ee9e3dd0f15b5c0892b6/8dc510c3f21338a558bd4418d6b8392c/blz-aktuell-xls-data.xlsx
 :data:
   '10000000': BBk Berlin
   '10010010': Postbank Ndl Deutsche Bank
@@ -85,7 +85,7 @@
   '11010101': solarisBank Gf (S)
   '12016836': KfW Berlin
   '12030000': Deutsche Kreditbank (Gf P2)
-  '12030900': Merck Finck Privatbankiers
+  '12030900': Merck Finck
   '12040000': Commerzbank Fil. Berlin 2
   '12050555': ZVA NORD LB Gf SA
   '12060000': DZ BANK
@@ -118,7 +118,7 @@
   '14051362': Sparkasse Parchim-Lübz
   '14051462': Sparkasse Schwerin -alt-
   '14052000': Spk Mecklenburg-Schwerin
-  '14061308': VB u Raiffbk Güstrow
+  '14061308': VR Bank Mecklenburg
   '14061438': Raiffeisen-VB Gadebusch-alt
   '14080000': Commerzbank Parchim
   '14080011': Commerzbank Schwerin Zw W
@@ -180,7 +180,7 @@
   '20030300': DONNER & REUSCHEL
   '20030400': Marcardbank Hamburg
   '20030600': Sydbank Hamburg
-  '20030700': Merck Finck Privatbankiers
+  '20030700': Merck Finck
   '20040000': Commerzbank Quickborn Holst
   '20040005': Commerzbank Fil. Hamburg 2
   '20040020': Commerzbank CC SP, Hamburg
@@ -198,7 +198,7 @@
   '20041166': Commerzbank - GF comdirect
   '20041177': Commerzbank - GF comdirect
   '20041188': Commerzbank - GF comdirect
-  '20041199': comdirect bank Quickborn
+  '20041199': Commerzbank - GF comdirect
   '20050000': Hamburg Commercial Bank
   '20050550': Haspa Barsbüttel
   '20060000': DZ BANK
@@ -589,7 +589,7 @@
   '26040030': Commerzbank Göttingen
   '26050001': Sparkasse Göttingen
   '26051260': Sparkasse Duderstadt
-  '26051450': Kr u St Spk Münden
+  '26051450': Kr u St Spk Münden -alt-
   '26061291': Volksbank Mitte
   '26061556': Volksbank Adelebsen
   '26062433': VR-Bank in Südniedersachsen
@@ -732,7 +732,7 @@
   '28065108': VR-Bank Dinklage-Steinfeld
   '28065286': Raiffeisenbank Scharrel
   '28066103': Volksbank Visbek
-  '28066214': VB Wildeshauser Geest
+  '28066214': VR Bank Oldenburg Land
   '28066620': Spar-u Darlehnskasse
   '28067068': VB Neuenkirchen-Vörden
   '28067170': VB Delmenhorst Schierbrok
@@ -854,7 +854,7 @@
   '30030600': ETRIS Bank Wuppertal
   '30030880': HSBC Trinkaus Düsseldorf
   '30030889': HSBC Trinkaus VAC
-  '30030900': Merck Finck Privatbankiers
+  '30030900': Merck Finck
   '30040000': Commerzbank Meerbusch Büder
   '30040005': Commerzbank Fil. Düsseld 2
   '30040048': Commerzbank DDF GF-D48
@@ -1049,6 +1049,7 @@
   '37010600': BNP Paribas Ndl Deutschland
   '37010699': BNP Paribas Ndl Deutschland
   '37011000': Postbank Ndl Deutsche Bank
+  '37019000': bunq, Koeln
   '37020090': UniCredit Bank-HypoVereinbk
   '37020200': AXA Bank Köln
   '37020400': TOYOTA Kreditbank Köln
@@ -1256,7 +1257,7 @@
   '40351060': Kr Spk Steinfurt
   '40351220': Sparkasse Steinfurt -alt-
   '40361627': VB Westerkappeln-Saerbeck
-  '40361906': VR-Bank Kreis Steinfurt
+  '40361906': Volksbank Münsterland Nord
   '40363433': Volksbank Hörstel -alt-
   '40370024': Deutsche Bank
   '40370079': Deutsche Bank
@@ -1525,13 +1526,12 @@
   '49490070': VB Herford-Mindener Land
   '50000000': BBk Filiale Frankfurt Main
   '50010060': Postbank Ndl Deutsche Bank
-  '50010111': DSK Hyp
   '50010200': AKBANK
   '50010424': Aareal Bank
   '50010517': ING-DiBa Frankfurt am Main
   '50010700': Degussa Bank Merseburg
-  '50010900': Bankamerica
-  '50010910': Bank of America
+  '50010900': Bank of America Europe
+  '50010910': Bank of America Europe
   '50012800': ALTE LEIPZIGER Bauspar
   '50016600': WUIB - Branch Germany
   '50020000': Sberbank Direct Frankfurt
@@ -1664,7 +1664,7 @@
   '50110801': J.P. Morgan, IR, Ffm
   '50110855': J.P. Morgan LUX Ffm.
   '50110900': Bank of America N.A. Mil Bk
-  '50120000': MAINFIRST BANK
+  '50120000': Stifel Europe Bank
   '50120100': ICICI Bank Eschborn
   '50120383': Bethmann Bank
   '50120500': CSD Frankfurt Main
@@ -1674,7 +1674,7 @@
   '50127000': PKO Bank Polski Frankfurt
   '50130000': Naba Frankfurt Main
   '50130200': Deutsche Oppenheim FFM
-  '50130400': Merck Finck Privatbankiers
+  '50130400': Merck Finck
   '50130600': UBS Europe
   '50131000': Vietinbank
   '50190000': Frankfurter Volksbank
@@ -1691,7 +1691,7 @@
   '50220500': Lloyds Bank
   '50220707': CAIXABANK Zndl Frankfurt
   '50220900': Hauck + Aufhäuser München
-  '50230000': ABC International Bank Ffm
+  '50230000': ABC ZNL Frankfurt
   '50230100': Morgan Stanley Bank Int
   '50230600': Isbank Frankfurt Main
   '50230700': Bankhaus Metzler Frankfurt
@@ -1771,7 +1771,6 @@
   '50862835': Raiffeisenbank Schaafheim
   '50862903': Volksbank Mainspitze
   '50863513': Vereinigte VB RB
-  '50864322': Volksbank Modau
   '50865224': Volksbank Mörfelden-Walldf
   '50865503': VB Eppertshausen
   '50870005': Deutsche Bank
@@ -1852,7 +1851,7 @@
   '51380040': Commerzbank Bad Nauheim
   '51380085': Commerzbank ITGK1 Gießen
   '51390000': VB Mittelhessen
-  '51410600': Bofa Merrill Lynch Intl.FFM
+  '51410600': Bank of America Frankfurt
   '51410700': Bank of China Frankfurt
   '51410800': Commerzbank - GF onvista
   '51420200': Misr Bank-Europe Ffm
@@ -1906,7 +1905,6 @@
   '52069013': Raiffeisenbank Burghaun
   '52069029': Spar-u Kredit-Bank Gemünden
   '52069065': Raiffbk Langenschw. Burghau
-  '52069103': Raiffeisenbank Trendelburg
   '52069149': Raiffbk Volkmarsen Arolsen
   '52069519': Frankenberger Bank
   '52070012': Deutsche Bank
@@ -2014,7 +2012,7 @@
   '54691200': VR Bank Mittelhaardt
   '54750010': Kr u St Spk Speyer
   '54790000': VerVR Bank Kur-u Rheinpfalz
-  '54850010': Spk Südl Weinstr in Landau
+  '54850010': Sparkasse Südpfalz
   '54851440': Spk Kuhardt
   '54861190': Raiffbk Oberhaardt-Gäu
   '54862390': Raiffeisenbank Herxheim
@@ -2805,7 +2803,7 @@
   '70025175': UniCredit Bank-HypoVereinbk
   '70030014': Fuggerbank Augsburg
   '70030300': Bankhaus Reuschel & Co -alt
-  '70030400': Merck Finck Privatbankiers
+  '70030400': Merck Finck
   '70031000': Bankhaus Sperrer Freising
   '70032500': SGKB Deutschland, München
   '70033100': Baaderbank Unterschleißheim
@@ -2893,7 +2891,7 @@
   '70169476': Raiffbk -alt-
   '70169509': Raiffbk Pfaffenwinkel
   '70169521': Raiffeisenbank Raisting
-  '70169524': Raiffeisenbank RSA
+  '70169524': Bankhaus RSA
   '70169530': Raiffbk Neumarkt-Reischach
   '70169538': Raiffbk St Wolfgang-Schwind
   '70169541': Raiffbk Lech-Ammersee

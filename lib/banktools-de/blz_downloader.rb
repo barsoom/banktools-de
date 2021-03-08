@@ -18,7 +18,7 @@ module BankTools
         if url.include?("://")
           puts "Downloading…"
           local_file = "/tmp/blz.xlsx"
-          File.write(local_file, open(url).read)
+          File.write(local_file, URI.open(url).read)
         else
           local_file = url
         end
