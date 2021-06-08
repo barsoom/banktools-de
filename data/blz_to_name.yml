@@ -1,6 +1,6 @@
 ---
-:generated_at: 2021-03-08 11:03:37.627397363 +01:00
-:generated_from_url: https://trello-attachments.s3.amazonaws.com/517e29dbf08bebb51e00606e/6045ee9e3dd0f15b5c0892b6/8dc510c3f21338a558bd4418d6b8392c/blz-aktuell-xls-data.xlsx
+:generated_at: 2021-06-08 08:04:12.713418393 +02:00
+:generated_from_url: https://www.bundesbank.de/resource/blob/602630/84c10a19f8cdb91c2b03fc69790a0d6e/mL/blz-aktuell-xls-data.xlsx
 :data:
   '10000000': BBk Berlin
   '10010010': Postbank Ndl Deutsche Bank
@@ -178,6 +178,7 @@
   '20030000': UniCredit Bank-HypoVereinbk
   '20030133': Varengold Bank
   '20030300': DONNER & REUSCHEL
+  '20030301': Donner + Reuschel GF NL LUX
   '20030400': Marcardbank Hamburg
   '20030600': Sydbank Hamburg
   '20030700': Merck Finck
@@ -426,7 +427,7 @@
   '21770011': Deutsche Bank
   '21770024': Deutsche Bank
   '21791805': Sylter Bank
-  '21791906': Föhr-Amrumer Bank
+  '21791906': Vereinigte VR Bank
   '21840078': Commerzbank Heide Holst
   '21841328': Commerzbank Brunsbüttel
   '21852310': Spk Hennst.-Wesselb. -alt-
@@ -794,7 +795,6 @@
   '28591579': Volksbank Papenburg
   '28591654': Volksbank Westrhauderfehn
   '29000000': BBk Hannover eh Bremen
-  '29010400': Deutsche Schiffsbank Bremen
   '29020000': Bankhaus Neelmeyer Bremen
   '29020200': Greensill Bank Bremen
   '29030400': M.M. Warburg (Plump)
@@ -1014,7 +1014,6 @@
   '36010043': Postbank Ndl Deutsche Bank
   '36010200': BNP Paribas Ndl. Dt.
   '36010424': Aareal Bank Essen
-  '36010600': NIBC Bank Deutschland
   '36020030': National-Bank Essen
   '36020186': UniCredit Bank-HypoVereinbk
   '36033300': Santander Bank Essen
@@ -1051,7 +1050,7 @@
   '37011000': Postbank Ndl Deutsche Bank
   '37019000': bunq, Koeln
   '37020090': UniCredit Bank-HypoVereinbk
-  '37020200': AXA Bank Köln
+  '37020200': AXA Bank Hof
   '37020400': TOYOTA Kreditbank Köln
   '37020500': Bank für Sozialwirtschaft
   '37020600': Santander Consumer Bk Köln
@@ -1070,6 +1069,7 @@
   '37050299': Kreissparkasse Köln
   '37060120': Pax-Bank Gf MHD
   '37060193': Pax-Bank Köln
+  '37060194': Pax-Bank Köln
   '37060590': Sparda-Bank West
   '37060993': PSD Bank West
   '37062124': Bensberger Bank
@@ -1544,7 +1544,7 @@
   '50021100': FIL Fondsbank Frankfurt
   '50021120': FIL Fondsbank Kronberg
   '50022200': HCBE Frankfurt am Main
-  '50024024': C24 Bank Frankfurt
+  '50024024': C24 Bank
   '50025000': Opel Bank
   '50030000': PSA Bank Neu-Isenburg
   '50030010': PSA Bank Neu-Isenburg
@@ -1669,6 +1669,7 @@
   '50120383': Bethmann Bank
   '50120500': CSD Frankfurt Main
   '50120600': Bank of Communications
+  '50120800': AION Bank Frankfurt
   '50120900': VakifBank Köln
   '50123400': VTB Direktbank
   '50127000': PKO Bank Polski Frankfurt
@@ -1857,9 +1858,6 @@
   '51420200': Misr Bank-Europe Ffm
   '51420300': Bank Julius Bär Frankfurt
   '51420600': Svenska Handelsbanken
-  '51430300': Nordea Bank, Frankfurt
-  '51430321': Nordea Bank Frankfurt
-  '51430345': Nordea Bank Frankfurt
   '51430400': Goldman Sachs Frankfurt
   '51432100': Saman Bank Frankfurt
   '51540037': Commerzbank Butzbach
@@ -2057,13 +2055,6 @@
   '55150098': Clearingkonto LRP-SI
   '55160195': Pax-Bank Mainz
   '55190000': Mainzer Volksbank Mainz
-  '55190028': Mainzer Volksbank -alt-
-  '55190050': Mainzer Volksbank -alt-
-  '55190064': Mainzer Volksbank -alt-
-  '55190065': Mainzer Volksbank -alt-
-  '55190068': Mainzer Volksbank -alt-
-  '55190088': Mainzer Volksbank -alt-
-  '55190094': Mainzer Volksbank -alt-
   '55340041': Commerzbank Worms
   '55350010': Sparkasse Worms-Alzey-Ried
   '55361202': VR Bank
@@ -2387,7 +2378,7 @@
   '60350130': Kr Spk Böblingen
   '60361923': Raiffeisenbank Weissach
   '60380002': Commerzbank Herrenberg
-  '60390000': Vereinigte Volksbank
+  '60390000': Vereinigte Volksbanken
   '60390300': Volksbank Leonberg-Strohgäu
   '60391310': VB Herrenbg-Nagold-Rottenbg
   '60391420': VR-Bank Magstadt-Weissach
@@ -2820,7 +2811,6 @@
   '70050000': BayernLB München
   '70051003': Sparkasse Freising
   '70051540': Sparkasse Dachau
-  '70051805': Kreissparkasse
   '70051995': Spk Erding-Dorfen
   '70052060': Spk Landsberg-Dießen
   '70053070': Spk Fürstenfeldbruck
@@ -2853,7 +2843,7 @@
   '70120400': BNP Paribas Deutschland
   '70120500': CACEIS Bank, München
   '70120600': Airbus Bank
-  '70120700': Oberbank Mainz
+  '70120700': Oberbank Potsdam
   '70130700': Lenz Bank München
   '70130799': Lenz Bank München Gf GAA
   '70130800': MERKUR PRIVATBANK München
@@ -2951,7 +2941,7 @@
   '71151020': Spk Altötting-Mühldorf
   '71152570': Kr Spk Miesbach-Tegernsee
   '71152680': Kr u St Spk Wasserburg
-  '71160000': VB RB Rosenheim-Chiemsee
+  '71160000': meine Volksbank Raiffbk
   '71160161': VR Bank Rosenheim-Chiemsee
   '71161964': VB-Raiffbk Chiemsee -alt-
   '71162355': Raiffeisenbank Oberaudorf
@@ -3421,7 +3411,7 @@
   '81040000': Commerzbank Haldensleben
   '81050555': Kreissparkasse Stendal
   '81052000': Harzsparkasse
-  '81053272': St Spk Magdeburg
+  '81053272': Spk MDB
   '81054000': Sparkasse Jerichower Land
   '81055000': Kreissparkasse Börde
   '81055555': Spk Altmark West Salzwedel
@@ -3571,3 +3561,4 @@
   '87095974': VB-RB Glauchau
   '87096124': Volksbank Mittweida
   '87096214': Volksbank Chemnitz
+  ! '': 
