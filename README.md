@@ -1,5 +1,7 @@
 # German bank tools
 
+**Not maintained!** Per 2021-06-24 we don't use this library anymore. If you want to take over ownership of the gem, [let us know](https://dev.auctionet.com/).
+
 [![Build Status](https://secure.travis-ci.org/barsoom/banktools-de.svg)](http://travis-ci.org/barsoom/banktools-de)
 
 Ruby gem to validate, normalize/prettify and interpret German Bankleitzahl (BLZ) and bank account numbers.
